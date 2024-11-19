@@ -1,0 +1,72 @@
+@page "/learnBlazor/demoproduct"
+@using global::LearnBlazor.Models
+
+<PageTitle>Demo Product</PageTitle>
+
+
+<h3 class="text-primary">DemoProduct</h3>
+
+<div class="row">
+    
+@foreach (var item in ProductList)
+{
+    <div class="col-6 border p-3">
+        <h1>Product @item.Id</h1>
+        <p>Name: @item.Name</p>
+        Show Properties: <input type="checkbox" @bind="@item.IsActive">
+            
+
+        @if (item.IsActive)
+        {
+            foreach (var prod in item.ProductProperties)
+            {
+                <p>@prod.Key: @prod.Value</p>
+
+
+            }
+        }
+        <br/>
+        <button class="btn btn-outline-danger">Delete</button>
+
+    </div>
+        }
+    </div>
+
+
+
+
+
+@code {
+    List<Product> ProductList = new();
+
+    protected override void OnInitialized()
+    {
+        ProductList.Add(new()
+        {
+            Id = 1,
+            Name = "Midnight Blaze",
+            IsActive = false,
+            Price = 5.99,
+            ProductProperties = new List<Product_Prop>()
+            {
+                new Product_Prop { Id = 1, Key = "Flavor", Value = "Rose"},
+                new Product_Prop { Id = 2, Key = "Size", Value = "20oz"},
+                new Product_Prop { Id = 3, Key = "Color", Value="Purple" }
+            }
+        });
+
+        ProductList.Add(new()
+        {
+            Id = 2,
+            Name = "Blossom Lily",
+            IsActive = true,
+            Price=10.59,
+            ProductProperties = new List<Product_Prop>()
+            {
+                new Product_Prop { Id = 1, Key = "Flavor", Value = "Lily" },
+                new Product_Prop { Id = 2, Key = "Size", Value = "18oz" },
+                new Product_Prop {Id = 3,Key = "Color",Value = "White"}
+            }
+        });
+    }
+}

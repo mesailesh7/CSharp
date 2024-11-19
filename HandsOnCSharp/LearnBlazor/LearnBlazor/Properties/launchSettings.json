@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+    "profiles": {
+      "http": {
+        "commandName": "Project",
+        "dotnetRunMessages": true,
+        "launchBrowser": false,
+        "hotReloadEnabled": true,
+        "applicationUrl": "http://localhost:5220",
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+      },
+      "Watch": {
+        "commandName": "Executable",
+        "executablePath": "dotnet",
+        "commandLineArgs": "watch run debug --launch-profile http",
+        "workingDirectory": "$(ProjectDir)",
+        "environmentVariables": {}
+      }
+    }
+  }

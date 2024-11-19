@@ -1,0 +1,14 @@
+/Users/sun/Documents/GitHub/HandsOnCSharp/AbilityScore/AbilityScore/obj/Debug/net8.0/AbilityScore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/HandsOnCSharp/AbilityScore/AbilityScore/obj/Debug/net8.0/AbilityScore.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/HandsOnCSharp/AbilityScore/AbilityScore/obj/Debug/net8.0/AbilityScore.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/HandsOnCSharp/AbilityScore/AbilityScore/obj/Debug/net8.0/AbilityScore.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/HandsOnCSharp/AbilityScore/AbilityScore/bin/Debug/net8.0/AbilityScore
+/Users/sun/Documents/GitHub/HandsOnCSharp/AbilityScore/AbilityScore/bin/Debug/net8.0/AbilityScore.deps.json
+/Users/sun/Documents/GitHub/HandsOnCSharp/AbilityScore/AbilityScore/bin/Debug/net8.0/AbilityScore.runtimeconfig.json
+/Users/sun/Documents/GitHub/HandsOnCSharp/AbilityScore/AbilityScore/bin/Debug/net8.0/AbilityScore.dll
+/Users/sun/Documents/GitHub/HandsOnCSharp/AbilityScore/AbilityScore/bin/Debug/net8.0/AbilityScore.pdb
+/Users/sun/Documents/GitHub/HandsOnCSharp/AbilityScore/AbilityScore/obj/Debug/net8.0/AbilityScore.dll
+/Users/sun/Documents/GitHub/HandsOnCSharp/AbilityScore/AbilityScore/obj/Debug/net8.0/refint/AbilityScore.dll
+/Users/sun/Documents/GitHub/HandsOnCSharp/AbilityScore/AbilityScore/obj/Debug/net8.0/AbilityScore.pdb
+/Users/sun/Documents/GitHub/HandsOnCSharp/AbilityScore/AbilityScore/obj/Debug/net8.0/AbilityScore.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/HandsOnCSharp/AbilityScore/AbilityScore/obj/Debug/net8.0/ref/AbilityScore.dll

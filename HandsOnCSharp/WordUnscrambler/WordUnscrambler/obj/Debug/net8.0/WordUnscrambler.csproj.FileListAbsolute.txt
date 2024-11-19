@@ -1,0 +1,14 @@
+/Users/sun/Documents/GitHub/HandsOnCSharp/WordUnscrambler/WordUnscrambler/bin/Debug/net8.0/WordUnscrambler
+/Users/sun/Documents/GitHub/HandsOnCSharp/WordUnscrambler/WordUnscrambler/bin/Debug/net8.0/WordUnscrambler.deps.json
+/Users/sun/Documents/GitHub/HandsOnCSharp/WordUnscrambler/WordUnscrambler/bin/Debug/net8.0/WordUnscrambler.runtimeconfig.json
+/Users/sun/Documents/GitHub/HandsOnCSharp/WordUnscrambler/WordUnscrambler/bin/Debug/net8.0/WordUnscrambler.dll
+/Users/sun/Documents/GitHub/HandsOnCSharp/WordUnscrambler/WordUnscrambler/bin/Debug/net8.0/WordUnscrambler.pdb
+/Users/sun/Documents/GitHub/HandsOnCSharp/WordUnscrambler/WordUnscrambler/obj/Debug/net8.0/WordUnscrambler.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/HandsOnCSharp/WordUnscrambler/WordUnscrambler/obj/Debug/net8.0/WordUnscrambler.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/HandsOnCSharp/WordUnscrambler/WordUnscrambler/obj/Debug/net8.0/WordUnscrambler.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/HandsOnCSharp/WordUnscrambler/WordUnscrambler/obj/Debug/net8.0/WordUnscrambler.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/HandsOnCSharp/WordUnscrambler/WordUnscrambler/obj/Debug/net8.0/WordUnscrambler.dll
+/Users/sun/Documents/GitHub/HandsOnCSharp/WordUnscrambler/WordUnscrambler/obj/Debug/net8.0/refint/WordUnscrambler.dll
+/Users/sun/Documents/GitHub/HandsOnCSharp/WordUnscrambler/WordUnscrambler/obj/Debug/net8.0/WordUnscrambler.pdb
+/Users/sun/Documents/GitHub/HandsOnCSharp/WordUnscrambler/WordUnscrambler/obj/Debug/net8.0/WordUnscrambler.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/HandsOnCSharp/WordUnscrambler/WordUnscrambler/obj/Debug/net8.0/ref/WordUnscrambler.dll
