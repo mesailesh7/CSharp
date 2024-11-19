@@ -1,0 +1,14 @@
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/TriviaGame/TriviaGame/bin/Debug/net8.0/TriviaGame
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/TriviaGame/TriviaGame/bin/Debug/net8.0/TriviaGame.deps.json
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/TriviaGame/TriviaGame/bin/Debug/net8.0/TriviaGame.runtimeconfig.json
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/TriviaGame/TriviaGame/bin/Debug/net8.0/TriviaGame.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/TriviaGame/TriviaGame/bin/Debug/net8.0/TriviaGame.pdb
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/TriviaGame/TriviaGame/obj/Debug/net8.0/TriviaGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/TriviaGame/TriviaGame/obj/Debug/net8.0/TriviaGame.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/TriviaGame/TriviaGame/obj/Debug/net8.0/TriviaGame.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/TriviaGame/TriviaGame/obj/Debug/net8.0/TriviaGame.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/TriviaGame/TriviaGame/obj/Debug/net8.0/TriviaGame.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/TriviaGame/TriviaGame/obj/Debug/net8.0/refint/TriviaGame.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/TriviaGame/TriviaGame/obj/Debug/net8.0/TriviaGame.pdb
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/TriviaGame/TriviaGame/obj/Debug/net8.0/TriviaGame.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/TriviaGame/TriviaGame/obj/Debug/net8.0/ref/TriviaGame.dll

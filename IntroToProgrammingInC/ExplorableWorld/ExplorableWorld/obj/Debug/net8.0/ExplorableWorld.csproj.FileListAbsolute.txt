@@ -1,0 +1,14 @@
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/ExplorableWorld/ExplorableWorld/bin/Debug/net8.0/ExplorableWorld
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/ExplorableWorld/ExplorableWorld/bin/Debug/net8.0/ExplorableWorld.deps.json
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/ExplorableWorld/ExplorableWorld/bin/Debug/net8.0/ExplorableWorld.runtimeconfig.json
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/ExplorableWorld/ExplorableWorld/bin/Debug/net8.0/ExplorableWorld.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/ExplorableWorld/ExplorableWorld/bin/Debug/net8.0/ExplorableWorld.pdb
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/ExplorableWorld/ExplorableWorld/obj/Debug/net8.0/ExplorableWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/ExplorableWorld/ExplorableWorld/obj/Debug/net8.0/ExplorableWorld.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/ExplorableWorld/ExplorableWorld/obj/Debug/net8.0/ExplorableWorld.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/ExplorableWorld/ExplorableWorld/obj/Debug/net8.0/ExplorableWorld.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/ExplorableWorld/ExplorableWorld/obj/Debug/net8.0/ExplorableWorld.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/ExplorableWorld/ExplorableWorld/obj/Debug/net8.0/refint/ExplorableWorld.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/ExplorableWorld/ExplorableWorld/obj/Debug/net8.0/ExplorableWorld.pdb
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/ExplorableWorld/ExplorableWorld/obj/Debug/net8.0/ExplorableWorld.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/ExplorableWorld/ExplorableWorld/obj/Debug/net8.0/ref/ExplorableWorld.dll

@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/sun/Documents/GitHub/IntroToProgrammingInC/BlazorInvoiceApp/BlazorInvoiceApp/obj/Debug/net8.0/scopedcss/projectbundle/BlazorInvoiceApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/BlazorInvoiceApp.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/sun/Documents/GitHub/IntroToProgrammingInC/BlazorInvoiceApp/BlazorInvoiceApp/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/sun/Documents/GitHub/IntroToProgrammingInC/BlazorInvoiceApp/BlazorInvoiceApp/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/sun/Documents/GitHub/IntroToProgrammingInC/BlazorInvoiceApp/BlazorInvoiceApp/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/sun/Documents/GitHub/IntroToProgrammingInC/BlazorInvoiceApp/BlazorInvoiceApp/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BlazorInvoiceApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.BlazorInvoiceApp.props",
+      "PackagePath": "build\\BlazorInvoiceApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BlazorInvoiceApp.props",
+      "PackagePath": "buildMultiTargeting\\BlazorInvoiceApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BlazorInvoiceApp.props",
+      "PackagePath": "buildTransitive\\BlazorInvoiceApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

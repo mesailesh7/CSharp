@@ -1,0 +1,14 @@
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/VirtualPetSimulator/VirtualPetSimulator/bin/Debug/net8.0/VirtualPetSimulator
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/VirtualPetSimulator/VirtualPetSimulator/bin/Debug/net8.0/VirtualPetSimulator.deps.json
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/VirtualPetSimulator/VirtualPetSimulator/bin/Debug/net8.0/VirtualPetSimulator.runtimeconfig.json
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/VirtualPetSimulator/VirtualPetSimulator/bin/Debug/net8.0/VirtualPetSimulator.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/VirtualPetSimulator/VirtualPetSimulator/bin/Debug/net8.0/VirtualPetSimulator.pdb
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/VirtualPetSimulator/VirtualPetSimulator/obj/Debug/net8.0/VirtualPetSimulator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/VirtualPetSimulator/VirtualPetSimulator/obj/Debug/net8.0/VirtualPetSimulator.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/VirtualPetSimulator/VirtualPetSimulator/obj/Debug/net8.0/VirtualPetSimulator.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/VirtualPetSimulator/VirtualPetSimulator/obj/Debug/net8.0/VirtualPetSimulator.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/VirtualPetSimulator/VirtualPetSimulator/obj/Debug/net8.0/VirtualPetSimulator.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/VirtualPetSimulator/VirtualPetSimulator/obj/Debug/net8.0/refint/VirtualPetSimulator.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/VirtualPetSimulator/VirtualPetSimulator/obj/Debug/net8.0/VirtualPetSimulator.pdb
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/VirtualPetSimulator/VirtualPetSimulator/obj/Debug/net8.0/VirtualPetSimulator.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/VirtualPetSimulator/VirtualPetSimulator/obj/Debug/net8.0/ref/VirtualPetSimulator.dll

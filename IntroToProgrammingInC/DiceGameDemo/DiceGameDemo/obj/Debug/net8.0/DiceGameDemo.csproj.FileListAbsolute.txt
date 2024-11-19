@@ -1,0 +1,14 @@
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/DiceGameDemo/DiceGameDemo/bin/Debug/net8.0/DiceGameDemo
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/DiceGameDemo/DiceGameDemo/bin/Debug/net8.0/DiceGameDemo.deps.json
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/DiceGameDemo/DiceGameDemo/bin/Debug/net8.0/DiceGameDemo.runtimeconfig.json
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/DiceGameDemo/DiceGameDemo/bin/Debug/net8.0/DiceGameDemo.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/DiceGameDemo/DiceGameDemo/bin/Debug/net8.0/DiceGameDemo.pdb
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/DiceGameDemo/DiceGameDemo/obj/Debug/net8.0/DiceGameDemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/DiceGameDemo/DiceGameDemo/obj/Debug/net8.0/DiceGameDemo.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/DiceGameDemo/DiceGameDemo/obj/Debug/net8.0/DiceGameDemo.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/DiceGameDemo/DiceGameDemo/obj/Debug/net8.0/DiceGameDemo.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/DiceGameDemo/DiceGameDemo/obj/Debug/net8.0/DiceGameDemo.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/DiceGameDemo/DiceGameDemo/obj/Debug/net8.0/refint/DiceGameDemo.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/DiceGameDemo/DiceGameDemo/obj/Debug/net8.0/DiceGameDemo.pdb
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/DiceGameDemo/DiceGameDemo/obj/Debug/net8.0/DiceGameDemo.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/DiceGameDemo/DiceGameDemo/obj/Debug/net8.0/ref/DiceGameDemo.dll

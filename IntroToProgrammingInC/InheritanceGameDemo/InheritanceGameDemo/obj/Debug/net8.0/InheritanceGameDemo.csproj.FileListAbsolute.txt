@@ -1,0 +1,15 @@
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/bin/Debug/net8.0/InheritanceGameDemo
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/bin/Debug/net8.0/InheritanceGameDemo.deps.json
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/bin/Debug/net8.0/InheritanceGameDemo.runtimeconfig.json
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/bin/Debug/net8.0/InheritanceGameDemo.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/bin/Debug/net8.0/InheritanceGameDemo.pdb
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/obj/Debug/net8.0/InheritanceGameDemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/obj/Debug/net8.0/InheritanceGameDemo.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/obj/Debug/net8.0/InheritanceGameDemo.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/obj/Debug/net8.0/InheritanceGameDemo.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/obj/Debug/net8.0/InheritanceGameDemo.sourcelink.json
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/obj/Debug/net8.0/InheritanceGameDemo.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/obj/Debug/net8.0/refint/InheritanceGameDemo.dll
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/obj/Debug/net8.0/InheritanceGameDemo.pdb
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/obj/Debug/net8.0/InheritanceGameDemo.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/IntroToProgrammingInC/InheritanceGameDemo/InheritanceGameDemo/obj/Debug/net8.0/ref/InheritanceGameDemo.dll
