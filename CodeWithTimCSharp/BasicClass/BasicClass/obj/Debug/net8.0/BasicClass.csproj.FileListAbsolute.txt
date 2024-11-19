@@ -1,0 +1,14 @@
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/BasicClass/BasicClass/bin/Debug/net8.0/BasicClass
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/BasicClass/BasicClass/bin/Debug/net8.0/BasicClass.deps.json
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/BasicClass/BasicClass/bin/Debug/net8.0/BasicClass.runtimeconfig.json
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/BasicClass/BasicClass/bin/Debug/net8.0/BasicClass.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/BasicClass/BasicClass/bin/Debug/net8.0/BasicClass.pdb
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/BasicClass/BasicClass/obj/Debug/net8.0/BasicClass.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/BasicClass/BasicClass/obj/Debug/net8.0/BasicClass.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/BasicClass/BasicClass/obj/Debug/net8.0/BasicClass.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/BasicClass/BasicClass/obj/Debug/net8.0/BasicClass.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/BasicClass/BasicClass/obj/Debug/net8.0/BasicClass.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/BasicClass/BasicClass/obj/Debug/net8.0/refint/BasicClass.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/BasicClass/BasicClass/obj/Debug/net8.0/BasicClass.pdb
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/BasicClass/BasicClass/obj/Debug/net8.0/BasicClass.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/BasicClass/BasicClass/obj/Debug/net8.0/ref/BasicClass.dll

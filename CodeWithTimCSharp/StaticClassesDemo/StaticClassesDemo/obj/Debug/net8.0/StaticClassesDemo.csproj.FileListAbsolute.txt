@@ -1,0 +1,14 @@
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/StaticClassesDemo/StaticClassesDemo/bin/Debug/net8.0/StaticClassesDemo
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/StaticClassesDemo/StaticClassesDemo/bin/Debug/net8.0/StaticClassesDemo.deps.json
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/StaticClassesDemo/StaticClassesDemo/bin/Debug/net8.0/StaticClassesDemo.runtimeconfig.json
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/StaticClassesDemo/StaticClassesDemo/bin/Debug/net8.0/StaticClassesDemo.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/StaticClassesDemo/StaticClassesDemo/bin/Debug/net8.0/StaticClassesDemo.pdb
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/StaticClassesDemo/StaticClassesDemo/obj/Debug/net8.0/StaticClassesDemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/StaticClassesDemo/StaticClassesDemo/obj/Debug/net8.0/StaticClassesDemo.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/StaticClassesDemo/StaticClassesDemo/obj/Debug/net8.0/StaticClassesDemo.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/StaticClassesDemo/StaticClassesDemo/obj/Debug/net8.0/StaticClassesDemo.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/StaticClassesDemo/StaticClassesDemo/obj/Debug/net8.0/StaticClassesDemo.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/StaticClassesDemo/StaticClassesDemo/obj/Debug/net8.0/refint/StaticClassesDemo.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/StaticClassesDemo/StaticClassesDemo/obj/Debug/net8.0/StaticClassesDemo.pdb
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/StaticClassesDemo/StaticClassesDemo/obj/Debug/net8.0/StaticClassesDemo.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/StaticClassesDemo/StaticClassesDemo/obj/Debug/net8.0/ref/StaticClassesDemo.dll

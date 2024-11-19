@@ -1,0 +1,14 @@
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/WhileLoop/bin/Debug/net8.0/WhileLoop
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/WhileLoop/bin/Debug/net8.0/WhileLoop.deps.json
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/WhileLoop/bin/Debug/net8.0/WhileLoop.runtimeconfig.json
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/WhileLoop/bin/Debug/net8.0/WhileLoop.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/WhileLoop/bin/Debug/net8.0/WhileLoop.pdb
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/WhileLoop/obj/Debug/net8.0/WhileLoop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/WhileLoop/obj/Debug/net8.0/WhileLoop.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/WhileLoop/obj/Debug/net8.0/WhileLoop.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/WhileLoop/obj/Debug/net8.0/WhileLoop.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/WhileLoop/obj/Debug/net8.0/WhileLoop.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/WhileLoop/obj/Debug/net8.0/refint/WhileLoop.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/WhileLoop/obj/Debug/net8.0/WhileLoop.pdb
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/WhileLoop/obj/Debug/net8.0/WhileLoop.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/WhileLoop/obj/Debug/net8.0/ref/WhileLoop.dll

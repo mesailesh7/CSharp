@@ -1,0 +1,4 @@
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/DesignPatternCourse/DesignPatternCourse/obj/Debug/net8.0/DesignPatternCourse.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/DesignPatternCourse/DesignPatternCourse/obj/Debug/net8.0/DesignPatternCourse.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/DesignPatternCourse/DesignPatternCourse/obj/Debug/net8.0/DesignPatternCourse.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/DesignPatternCourse/DesignPatternCourse/obj/Debug/net8.0/DesignPatternCourse.csproj.CoreCompileInputs.cache

@@ -1,0 +1,4 @@
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/obj/Release/net8.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/obj/Release/net8.0/Calculator.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/obj/Release/net8.0/Calculator.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/obj/Release/net8.0/Calculator.csproj.CoreCompileInputs.cache

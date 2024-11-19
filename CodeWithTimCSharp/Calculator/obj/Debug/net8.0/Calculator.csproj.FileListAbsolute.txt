@@ -1,0 +1,14 @@
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/bin/Debug/net8.0/Calculator
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/bin/Debug/net8.0/Calculator.deps.json
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/bin/Debug/net8.0/Calculator.runtimeconfig.json
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/bin/Debug/net8.0/Calculator.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/bin/Debug/net8.0/Calculator.pdb
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/obj/Debug/net8.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/obj/Debug/net8.0/Calculator.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/obj/Debug/net8.0/Calculator.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/obj/Debug/net8.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/obj/Debug/net8.0/Calculator.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/obj/Debug/net8.0/refint/Calculator.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/obj/Debug/net8.0/Calculator.pdb
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/obj/Debug/net8.0/Calculator.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/Calculator/obj/Debug/net8.0/ref/Calculator.dll

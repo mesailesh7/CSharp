@@ -1,0 +1,7 @@
+C:\Users\me\source\repos\DebuggingMiniProjectDemo\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\me\source\repos\DebuggingMiniProjectDemo\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\me\source\repos\DebuggingMiniProjectDemo\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\me\source\repos\DebuggingMiniProjectDemo\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\me\source\repos\DebuggingMiniProjectDemo\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\me\source\repos\DebuggingMiniProjectDemo\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\me\source\repos\DebuggingMiniProjectDemo\ConsoleUI\obj\Debug\ConsoleUI.pdb

@@ -1,0 +1,14 @@
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/HomeWork_Arrays/bin/Debug/net8.0/HomeWork_Arrays
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/HomeWork_Arrays/bin/Debug/net8.0/HomeWork_Arrays.deps.json
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/HomeWork_Arrays/bin/Debug/net8.0/HomeWork_Arrays.runtimeconfig.json
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/HomeWork_Arrays/bin/Debug/net8.0/HomeWork_Arrays.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/HomeWork_Arrays/bin/Debug/net8.0/HomeWork_Arrays.pdb
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/HomeWork_Arrays/obj/Debug/net8.0/HomeWork_Arrays.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/HomeWork_Arrays/obj/Debug/net8.0/HomeWork_Arrays.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/HomeWork_Arrays/obj/Debug/net8.0/HomeWork_Arrays.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/HomeWork_Arrays/obj/Debug/net8.0/HomeWork_Arrays.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/HomeWork_Arrays/obj/Debug/net8.0/HomeWork_Arrays.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/HomeWork_Arrays/obj/Debug/net8.0/refint/HomeWork_Arrays.dll
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/HomeWork_Arrays/obj/Debug/net8.0/HomeWork_Arrays.pdb
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/HomeWork_Arrays/obj/Debug/net8.0/HomeWork_Arrays.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/CodeWithTimCSharp/HomeWork_Arrays/obj/Debug/net8.0/ref/HomeWork_Arrays.dll
