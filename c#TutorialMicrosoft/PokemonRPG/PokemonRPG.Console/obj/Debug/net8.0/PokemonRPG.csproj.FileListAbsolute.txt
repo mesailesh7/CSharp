@@ -1,0 +1,15 @@
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/bin/Debug/net8.0/PokemonRPG
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/bin/Debug/net8.0/PokemonRPG.deps.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/bin/Debug/net8.0/PokemonRPG.runtimeconfig.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/bin/Debug/net8.0/PokemonRPG.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/bin/Debug/net8.0/PokemonRPG.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/obj/Debug/net8.0/PokemonRPG.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/obj/Debug/net8.0/PokemonRPG.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/obj/Debug/net8.0/PokemonRPG.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/obj/Debug/net8.0/PokemonRPG.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/obj/Debug/net8.0/PokemonRPG.sourcelink.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/obj/Debug/net8.0/PokemonRPG.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/obj/Debug/net8.0/refint/PokemonRPG.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/obj/Debug/net8.0/PokemonRPG.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/obj/Debug/net8.0/PokemonRPG.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/PokemonRPG/PokemonRPG/obj/Debug/net8.0/ref/PokemonRPG.dll

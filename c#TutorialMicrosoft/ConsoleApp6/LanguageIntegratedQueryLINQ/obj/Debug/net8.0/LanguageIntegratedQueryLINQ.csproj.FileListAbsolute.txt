@@ -1,0 +1,15 @@
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/bin/Debug/net8.0/LanguageIntegratedQueryLINQ
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/bin/Debug/net8.0/LanguageIntegratedQueryLINQ.deps.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/bin/Debug/net8.0/LanguageIntegratedQueryLINQ.runtimeconfig.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/bin/Debug/net8.0/LanguageIntegratedQueryLINQ.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/bin/Debug/net8.0/LanguageIntegratedQueryLINQ.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/obj/Debug/net8.0/LanguageIntegratedQueryLINQ.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/obj/Debug/net8.0/LanguageIntegratedQueryLINQ.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/obj/Debug/net8.0/LanguageIntegratedQueryLINQ.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/obj/Debug/net8.0/LanguageIntegratedQueryLINQ.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/obj/Debug/net8.0/LanguageIntegratedQueryLINQ.sourcelink.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/obj/Debug/net8.0/LanguageIntegratedQueryLINQ.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/obj/Debug/net8.0/refint/LanguageIntegratedQueryLINQ.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/obj/Debug/net8.0/LanguageIntegratedQueryLINQ.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/obj/Debug/net8.0/LanguageIntegratedQueryLINQ.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp6/LanguageIntegratedQueryLINQ/obj/Debug/net8.0/ref/LanguageIntegratedQueryLINQ.dll

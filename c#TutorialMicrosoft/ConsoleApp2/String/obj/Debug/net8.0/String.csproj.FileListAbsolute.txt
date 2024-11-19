@@ -1,0 +1,15 @@
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/bin/Debug/net8.0/String
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/bin/Debug/net8.0/String.deps.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/bin/Debug/net8.0/String.runtimeconfig.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/bin/Debug/net8.0/String.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/bin/Debug/net8.0/String.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/obj/Debug/net8.0/String.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/obj/Debug/net8.0/String.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/obj/Debug/net8.0/String.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/obj/Debug/net8.0/String.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/obj/Debug/net8.0/String.sourcelink.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/obj/Debug/net8.0/String.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/obj/Debug/net8.0/refint/String.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/obj/Debug/net8.0/String.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/obj/Debug/net8.0/String.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp2/String/obj/Debug/net8.0/ref/String.dll

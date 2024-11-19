@@ -1,0 +1,15 @@
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/bin/Debug/net8.0/ifCondition
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/bin/Debug/net8.0/ifCondition.deps.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/bin/Debug/net8.0/ifCondition.runtimeconfig.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/bin/Debug/net8.0/ifCondition.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/bin/Debug/net8.0/ifCondition.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/obj/Debug/net8.0/ifCondition.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/obj/Debug/net8.0/ifCondition.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/obj/Debug/net8.0/ifCondition.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/obj/Debug/net8.0/ifCondition.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/obj/Debug/net8.0/ifCondition.sourcelink.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/obj/Debug/net8.0/ifCondition.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/obj/Debug/net8.0/refint/ifCondition.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/obj/Debug/net8.0/ifCondition.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/obj/Debug/net8.0/ifCondition.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp4/ifCondition/obj/Debug/net8.0/ref/ifCondition.dll

@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo.Tests/ClassDemo.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo.Tests/ClassDemo.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo.Tests/ClassDemo.Tests.csproj",
+        "projectName": "ClassDemo.Tests",
+        "projectPath": "/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo.Tests/ClassDemo.Tests.csproj",
+        "packagesPath": "/Users/sun/.nuget/packages/",
+        "outputPath": "/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/Users/sun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/ClassDemo.csproj": {
+                "projectPath": "/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/ClassDemo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2024.2.0, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/ClassDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/ClassDemo.csproj",
+        "projectName": "ClassDemo",
+        "projectPath": "/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/ClassDemo.csproj",
+        "packagesPath": "/Users/sun/.nuget/packages/",
+        "outputPath": "/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

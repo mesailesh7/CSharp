@@ -1,0 +1,15 @@
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/bin/Debug/net8.0/OOP
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/bin/Debug/net8.0/OOP.deps.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/bin/Debug/net8.0/OOP.runtimeconfig.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/bin/Debug/net8.0/OOP.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/bin/Debug/net8.0/OOP.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/obj/Debug/net8.0/OOP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/obj/Debug/net8.0/OOP.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/obj/Debug/net8.0/OOP.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/obj/Debug/net8.0/OOP.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/obj/Debug/net8.0/OOP.sourcelink.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/obj/Debug/net8.0/OOP.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/obj/Debug/net8.0/refint/OOP.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/obj/Debug/net8.0/OOP.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/obj/Debug/net8.0/OOP.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp7/OOP/obj/Debug/net8.0/ref/OOP.dll

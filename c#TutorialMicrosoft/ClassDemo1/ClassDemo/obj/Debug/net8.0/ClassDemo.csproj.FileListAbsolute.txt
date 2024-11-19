@@ -1,0 +1,15 @@
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/bin/Debug/net8.0/ClassDemo
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/bin/Debug/net8.0/ClassDemo.deps.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/bin/Debug/net8.0/ClassDemo.runtimeconfig.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/bin/Debug/net8.0/ClassDemo.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/bin/Debug/net8.0/ClassDemo.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/obj/Debug/net8.0/ClassDemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/obj/Debug/net8.0/ClassDemo.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/obj/Debug/net8.0/ClassDemo.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/obj/Debug/net8.0/ClassDemo.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/obj/Debug/net8.0/ClassDemo.sourcelink.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/obj/Debug/net8.0/ClassDemo.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/obj/Debug/net8.0/refint/ClassDemo.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/obj/Debug/net8.0/ClassDemo.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/obj/Debug/net8.0/ClassDemo.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ClassDemo1/ClassDemo/obj/Debug/net8.0/ref/ClassDemo.dll

@@ -1,0 +1,15 @@
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/bin/Debug/net8.0/ATMApp
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/bin/Debug/net8.0/ATMApp.deps.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/bin/Debug/net8.0/ATMApp.runtimeconfig.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/bin/Debug/net8.0/ATMApp.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/bin/Debug/net8.0/ATMApp.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/obj/Debug/net8.0/ATMApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/obj/Debug/net8.0/ATMApp.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/obj/Debug/net8.0/ATMApp.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/obj/Debug/net8.0/ATMApp.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/obj/Debug/net8.0/ATMApp.sourcelink.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/obj/Debug/net8.0/ATMApp.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/obj/Debug/net8.0/refint/ATMApp.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/obj/Debug/net8.0/ATMApp.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/obj/Debug/net8.0/ATMApp.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ATMApp/ATMApp/obj/Debug/net8.0/ref/ATMApp.dll

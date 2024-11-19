@@ -1,0 +1,15 @@
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/bin/Debug/net8.0/Integers
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/bin/Debug/net8.0/Integers.deps.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/bin/Debug/net8.0/Integers.runtimeconfig.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/bin/Debug/net8.0/Integers.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/bin/Debug/net8.0/Integers.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/obj/Debug/net8.0/Integers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/obj/Debug/net8.0/Integers.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/obj/Debug/net8.0/Integers.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/obj/Debug/net8.0/Integers.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/obj/Debug/net8.0/Integers.sourcelink.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/obj/Debug/net8.0/Integers.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/obj/Debug/net8.0/refint/Integers.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/obj/Debug/net8.0/Integers.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/obj/Debug/net8.0/Integers.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/ConsoleApp3/Integers/obj/Debug/net8.0/ref/Integers.dll

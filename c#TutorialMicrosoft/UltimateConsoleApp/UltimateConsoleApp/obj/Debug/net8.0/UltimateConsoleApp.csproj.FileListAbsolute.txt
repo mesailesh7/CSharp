@@ -1,0 +1,15 @@
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/bin/Debug/net8.0/UltimateConsoleApp
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/bin/Debug/net8.0/UltimateConsoleApp.deps.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/bin/Debug/net8.0/UltimateConsoleApp.runtimeconfig.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/bin/Debug/net8.0/UltimateConsoleApp.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/bin/Debug/net8.0/UltimateConsoleApp.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/obj/Debug/net8.0/UltimateConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/obj/Debug/net8.0/UltimateConsoleApp.AssemblyInfoInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/obj/Debug/net8.0/UltimateConsoleApp.AssemblyInfo.cs
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/obj/Debug/net8.0/UltimateConsoleApp.csproj.CoreCompileInputs.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/obj/Debug/net8.0/UltimateConsoleApp.sourcelink.json
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/obj/Debug/net8.0/UltimateConsoleApp.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/obj/Debug/net8.0/refint/UltimateConsoleApp.dll
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/obj/Debug/net8.0/UltimateConsoleApp.pdb
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/obj/Debug/net8.0/UltimateConsoleApp.genruntimeconfig.cache
+/Users/sun/Documents/GitHub/c#TutorialMicrosoft/UltimateConsoleApp/UltimateConsoleApp/obj/Debug/net8.0/ref/UltimateConsoleApp.dll
