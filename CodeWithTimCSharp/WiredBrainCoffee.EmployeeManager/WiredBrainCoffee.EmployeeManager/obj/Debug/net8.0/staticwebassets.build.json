@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Sws2n7OFcOdG8Si9BUGyHegnKhmRFNgWIlnjiEkEbCk=",
+  "Hash": "XEWsHUjG8hXY98iIe7D4qbBV6k1cRMteuzYaQ4skMLs=",
   "Source": "WiredBrainCoffee.EmployeeManager",
   "BasePath": "_content/WiredBrainCoffee.EmployeeManager",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "WiredBrainCoffee.EmployeeManager/wwwroot",
       "Source": "WiredBrainCoffee.EmployeeManager",
-      "ContentRoot": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/",
+      "ContentRoot": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/",
       "BasePath": "_content/WiredBrainCoffee.EmployeeManager",
       "Pattern": "**"
     }
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "/Users/sun/.nuget/packages/microsoft.aspnetcore.components.quickgrid/8.0.11/staticwebassets/QuickGrid.razor.js"
     },
     {
-      "Identity": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/obj/Debug/net8.0/scopedcss/bundle/WiredBrainCoffee.EmployeeManager.styles.css",
+      "Identity": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/obj/Debug/net8.0/scopedcss/bundle/WiredBrainCoffee.EmployeeManager.styles.css",
       "SourceId": "WiredBrainCoffee.EmployeeManager",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/WiredBrainCoffee.EmployeeManager",
       "RelativePath": "WiredBrainCoffee.EmployeeManager.styles.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/obj/Debug/net8.0/scopedcss/bundle/WiredBrainCoffee.EmployeeManager.styles.css"
+      "OriginalItemSpec": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/obj/Debug/net8.0/scopedcss/bundle/WiredBrainCoffee.EmployeeManager.styles.css"
     },
     {
-      "Identity": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/obj/Debug/net8.0/scopedcss/projectbundle/WiredBrainCoffee.EmployeeManager.bundle.scp.css",
+      "Identity": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/obj/Debug/net8.0/scopedcss/projectbundle/WiredBrainCoffee.EmployeeManager.bundle.scp.css",
       "SourceId": "WiredBrainCoffee.EmployeeManager",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/WiredBrainCoffee.EmployeeManager",
       "RelativePath": "WiredBrainCoffee.EmployeeManager.bundle.scp.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/obj/Debug/net8.0/scopedcss/projectbundle/WiredBrainCoffee.EmployeeManager.bundle.scp.css"
+      "OriginalItemSpec": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/obj/Debug/net8.0/scopedcss/projectbundle/WiredBrainCoffee.EmployeeManager.bundle.scp.css"
     },
     {
-      "Identity": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/app.css",
+      "Identity": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/app.css",
       "SourceId": "WiredBrainCoffee.EmployeeManager",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/",
+      "ContentRoot": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/",
       "BasePath": "_content/WiredBrainCoffee.EmployeeManager",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/bootstrap/bootstrap.min.css",
+      "Identity": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/bootstrap/bootstrap.min.css",
       "SourceId": "WiredBrainCoffee.EmployeeManager",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/",
+      "ContentRoot": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/",
       "BasePath": "_content/WiredBrainCoffee.EmployeeManager",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Identity": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/bootstrap/bootstrap.min.css.map",
       "SourceId": "WiredBrainCoffee.EmployeeManager",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/",
+      "ContentRoot": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/",
       "BasePath": "_content/WiredBrainCoffee.EmployeeManager",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/favicon.png",
+      "Identity": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/favicon.png",
       "SourceId": "WiredBrainCoffee.EmployeeManager",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/",
+      "ContentRoot": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/",
       "BasePath": "_content/WiredBrainCoffee.EmployeeManager",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot/favicon.png"
     },
     {
-      "Identity": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/logo.png",
+      "Identity": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/logo.png",
       "SourceId": "WiredBrainCoffee.EmployeeManager",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sun/Documents/GitHub/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/",
+      "ContentRoot": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/wwwroot/",
       "BasePath": "_content/WiredBrainCoffee.EmployeeManager",
       "RelativePath": "logo.png",
       "AssetKind": "All",
