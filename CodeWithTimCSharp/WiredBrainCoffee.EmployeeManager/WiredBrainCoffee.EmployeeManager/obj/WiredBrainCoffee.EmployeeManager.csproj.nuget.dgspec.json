@@ -13,7 +13,6 @@
         "packagesPath": "/Users/sun/.nuget/packages/",
         "outputPath": "/Users/sun/Documents/GitHub/CSharp/CodeWithTimCSharp/WiredBrainCoffee.EmployeeManager/WiredBrainCoffee.EmployeeManager/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/sun/.nuget/NuGet/NuGet.Config"
         ],

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WiredBrainCoffee.EmployeeManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38cee4454f50b5015de1ca6abad06d05fda5feac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a536f67cde7e34c9c85d94dc3b6169b0ae60373c")]
 [assembly: System.Reflection.AssemblyProductAttribute("WiredBrainCoffee.EmployeeManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WiredBrainCoffee.EmployeeManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
