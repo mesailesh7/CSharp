@@ -4,6 +4,132 @@
     "/Users/sun/Documents/GitHub/CSharp/MyBlog/MyBlog/MyBlog/MyBlog.csproj": {}
   },
   "projects": {
+    "/Users/sun/Documents/GitHub/CSharp/MyBlog/Data.Models/Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sun/Documents/GitHub/CSharp/MyBlog/Data.Models/Data.Models.csproj",
+        "projectName": "Data.Models",
+        "projectPath": "/Users/sun/Documents/GitHub/CSharp/MyBlog/Data.Models/Data.Models.csproj",
+        "packagesPath": "/Users/sun/.nuget/packages/",
+        "outputPath": "/Users/sun/Documents/GitHub/CSharp/MyBlog/Data.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sun/Documents/GitHub/CSharp/MyBlog/Data/Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sun/Documents/GitHub/CSharp/MyBlog/Data/Data.csproj",
+        "projectName": "Data",
+        "projectPath": "/Users/sun/Documents/GitHub/CSharp/MyBlog/Data/Data.csproj",
+        "packagesPath": "/Users/sun/.nuget/packages/",
+        "outputPath": "/Users/sun/Documents/GitHub/CSharp/MyBlog/Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/sun/Documents/GitHub/CSharp/MyBlog/Data.Models/Data.Models.csproj": {
+                "projectPath": "/Users/sun/Documents/GitHub/CSharp/MyBlog/Data.Models/Data.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/sun/Documents/GitHub/CSharp/MyBlog/MyBlog/MyBlog.Client/MyBlog.Client.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -113,6 +239,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/Users/sun/Documents/GitHub/CSharp/MyBlog/Data/Data.csproj": {
+                "projectPath": "/Users/sun/Documents/GitHub/CSharp/MyBlog/Data/Data.csproj"
+              },
               "/Users/sun/Documents/GitHub/CSharp/MyBlog/MyBlog/MyBlog.Client/MyBlog.Client.csproj": {
                 "projectPath": "/Users/sun/Documents/GitHub/CSharp/MyBlog/MyBlog/MyBlog.Client/MyBlog.Client.csproj"
               }
