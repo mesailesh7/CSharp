@@ -1,0 +1,15 @@
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\bin\Debug\net9.0\List.exe
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\bin\Debug\net9.0\List.deps.json
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\bin\Debug\net9.0\List.runtimeconfig.json
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\bin\Debug\net9.0\List.dll
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\bin\Debug\net9.0\List.pdb
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\obj\Debug\net9.0\List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\obj\Debug\net9.0\List.AssemblyInfoInputs.cache
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\obj\Debug\net9.0\List.AssemblyInfo.cs
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\obj\Debug\net9.0\List.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\obj\Debug\net9.0\List.sourcelink.json
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\obj\Debug\net9.0\List.dll
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\obj\Debug\net9.0\refint\List.dll
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\obj\Debug\net9.0\List.pdb
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\obj\Debug\net9.0\List.genruntimeconfig.cache
+C:\Mac\Home\Documents\GitHub\CSharp\List\List\obj\Debug\net9.0\ref\List.dll
