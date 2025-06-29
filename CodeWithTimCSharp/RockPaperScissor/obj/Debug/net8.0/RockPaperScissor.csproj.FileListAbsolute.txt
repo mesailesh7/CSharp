@@ -1,4 +1,0 @@
-/Users/sun/Documents/GitHub/CodeWithTimCSharp/RockPaperScissor/obj/Debug/net8.0/RockPaperScissor.GeneratedMSBuildEditorConfig.editorconfig
-/Users/sun/Documents/GitHub/CodeWithTimCSharp/RockPaperScissor/obj/Debug/net8.0/RockPaperScissor.AssemblyInfoInputs.cache
-/Users/sun/Documents/GitHub/CodeWithTimCSharp/RockPaperScissor/obj/Debug/net8.0/RockPaperScissor.AssemblyInfo.cs
-/Users/sun/Documents/GitHub/CodeWithTimCSharp/RockPaperScissor/obj/Debug/net8.0/RockPaperScissor.csproj.CoreCompileInputs.cache
