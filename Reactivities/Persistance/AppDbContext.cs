@@ -1,8 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace Persistance;
 
-public class AppDbContext : DbContext
+public class AppDbContext(DbContextOptions options) : DbContext(options)
 {
-
+    public required DbSet<Activity> Activities { get; set; }
 }
