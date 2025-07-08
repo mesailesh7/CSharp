@@ -5,7 +5,6 @@ namespace Domain;
 public class Activity
 {
     public string Id { get; set; } = Guid.NewGuid().ToString();
-
     public required string Title { get; set; }
     public DateTime Date { get; set; }
     public required string Description { get; set; }
@@ -17,7 +16,6 @@ public class Activity
     {
         get; set;
     }
-
-    public double Longtitude { get; set; }
+    public double Longitude { get; set; }
 
 }
