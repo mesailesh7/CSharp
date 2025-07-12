@@ -11,11 +11,14 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+builder.Services.AddCors();
+// Cors has to be added before code mapController
+
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-
+app.UseCors()
 app.MapControllers();
 
 using var scope = app.Services.CreateScope();
