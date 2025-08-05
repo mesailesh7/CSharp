@@ -56,13 +56,13 @@
           "lib/net8.0/BYSResults.dll": {}
         }
       },
-      "Extensions.MudBlazor.StaticInput/3.2.0": {
+      "Extensions.MudBlazor.StaticInput/3.2.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "9.0.2",
-          "Microsoft.AspNetCore.Components.Web": "9.0.2",
+          "Microsoft.AspNetCore.Components": "9.0.7",
+          "Microsoft.AspNetCore.Components.Web": "9.0.7",
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
-          "MudBlazor": "8.2.0"
+          "MudBlazor": "8.9.0"
         },
         "compile": {
           "lib/net9.0/MudBlazor.StaticInput.dll": {}
@@ -90,12 +90,12 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authorization/9.0.2": {
+      "Microsoft.AspNetCore.Authorization/9.0.7": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "9.0.2",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
-          "Microsoft.Extensions.Options": "9.0.2"
+          "Microsoft.AspNetCore.Metadata": "9.0.7",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.7",
+          "Microsoft.Extensions.Options": "9.0.7"
         },
         "compile": {
           "lib/net9.0/Microsoft.AspNetCore.Authorization.dll": {
@@ -108,11 +108,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components/9.0.2": {
+      "Microsoft.AspNetCore.Components/9.0.7": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "9.0.2",
-          "Microsoft.AspNetCore.Components.Analyzers": "9.0.2"
+          "Microsoft.AspNetCore.Authorization": "9.0.7",
+          "Microsoft.AspNetCore.Components.Analyzers": "9.0.7"
         },
         "compile": {
           "lib/net9.0/Microsoft.AspNetCore.Components.dll": {
@@ -125,16 +125,16 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/9.0.2": {
+      "Microsoft.AspNetCore.Components.Analyzers/9.0.7": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Forms/9.0.2": {
+      "Microsoft.AspNetCore.Components.Forms/9.0.7": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "9.0.2"
+          "Microsoft.AspNetCore.Components": "9.0.7"
         },
         "compile": {
           "lib/net9.0/Microsoft.AspNetCore.Components.Forms.dll": {
@@ -147,14 +147,14 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Web/9.0.2": {
+      "Microsoft.AspNetCore.Components.Web/9.0.7": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "9.0.2",
-          "Microsoft.AspNetCore.Components.Forms": "9.0.2",
-          "Microsoft.Extensions.DependencyInjection": "9.0.2",
-          "Microsoft.Extensions.Primitives": "9.0.2",
-          "Microsoft.JSInterop": "9.0.2"
+          "Microsoft.AspNetCore.Components": "9.0.7",
+          "Microsoft.AspNetCore.Components.Forms": "9.0.7",
+          "Microsoft.Extensions.DependencyInjection": "9.0.7",
+          "Microsoft.Extensions.Primitives": "9.0.7",
+          "Microsoft.JSInterop": "9.0.7"
         },
         "compile": {
           "lib/net9.0/Microsoft.AspNetCore.Components.Web.dll": {
@@ -265,7 +265,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Metadata/9.0.2": {
+      "Microsoft.AspNetCore.Metadata/9.0.7": {
         "type": "package",
         "compile": {
           "lib/net9.0/Microsoft.AspNetCore.Metadata.dll": {
@@ -1202,7 +1202,7 @@
           }
         }
       },
-      "Microsoft.JSInterop/9.0.2": {
+      "Microsoft.JSInterop/9.0.7": {
         "type": "package",
         "compile": {
           "lib/net9.0/Microsoft.JSInterop.dll": {
@@ -1992,10 +1992,10 @@
         "lib/net8.0/BYSResults.dll"
       ]
     },
-    "Extensions.MudBlazor.StaticInput/3.2.0": {
-      "sha512": "MQqB8uanzZy/tVnE5NbKRp8MCMFWiIeOt7uvj5OauTV0e92BfezJhwhf9fj83n1Phvjzj2eOOw2ql7acly7Caw==",
+    "Extensions.MudBlazor.StaticInput/3.2.1": {
+      "sha512": "eWb4VlY9N/FbQORTa2pP2emUlrYRB1qDcCbi+Qh1mO7Lc0lLe63uDK3u13FRNQ8DDOVDM6L/rP3isD5xLR4NDQ==",
       "type": "package",
-      "path": "extensions.mudblazor.staticinput/3.2.0",
+      "path": "extensions.mudblazor.staticinput/3.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2005,7 +2005,7 @@
         "build/Microsoft.AspNetCore.StaticWebAssets.props",
         "buildMultiTargeting/Extensions.MudBlazor.StaticInput.props",
         "buildTransitive/Extensions.MudBlazor.StaticInput.props",
-        "extensions.mudblazor.staticinput.3.2.0.nupkg.sha512",
+        "extensions.mudblazor.staticinput.3.2.1.nupkg.sha512",
         "extensions.mudblazor.staticinput.nuspec",
         "lib/net8.0/MudBlazor.StaticInput.dll",
         "lib/net9.0/MudBlazor.StaticInput.dll",
@@ -2031,10 +2031,10 @@
         "logo.png"
       ]
     },
-    "Microsoft.AspNetCore.Authorization/9.0.2": {
-      "sha512": "XpB+xelGR4xxV8UX0Sa2OXr1ZsZgNyF5Xv1Yn3K5GCnzl7wkwczmnER5/E2A+7tBRf424OSPrBdN3gzz5wa14Q==",
+    "Microsoft.AspNetCore.Authorization/9.0.7": {
+      "sha512": "P0Gej6X5cEoK+sS9XpgYSzg0Nz8OOlvfQb12aOAJW/P4b9nAzLQCVoNp1GDyR/P8eMSnoPARiKPaa6q51iR0oA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authorization/9.0.2",
+      "path": "microsoft.aspnetcore.authorization/9.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2046,14 +2046,14 @@
         "lib/net9.0/Microsoft.AspNetCore.Authorization.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
-        "microsoft.aspnetcore.authorization.9.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.9.0.7.nupkg.sha512",
         "microsoft.aspnetcore.authorization.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components/9.0.2": {
-      "sha512": "mzGLA29vYXczpSTDTCN/VpP2bz76yw4uAIAF9gI177rpsN5h+Vp7GyBpFMvfThYAJUmLcIcZhg3TNb2SjS9oLQ==",
+    "Microsoft.AspNetCore.Components/9.0.7": {
+      "sha512": "cZpVsxWWGagoP2U6Kjqm107gVZHTmiM2m7YDNRsScTWoBB1iyEIznvYG9ZK4XkDY4yDUTdnZrXRMMVu8K7dJ8Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components/9.0.2",
+      "path": "microsoft.aspnetcore.components/9.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2061,14 +2061,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net9.0/Microsoft.AspNetCore.Components.dll",
         "lib/net9.0/Microsoft.AspNetCore.Components.xml",
-        "microsoft.aspnetcore.components.9.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.components.9.0.7.nupkg.sha512",
         "microsoft.aspnetcore.components.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Analyzers/9.0.2": {
-      "sha512": "9yKCoBGAhcwfWNn1U3ZnB2Seqh9vFm7D2OfcS6wNriYbCTWQyRLTvDDj1Xov+H9tgxq7FMpz9+lb46Y/2GeIaQ==",
+    "Microsoft.AspNetCore.Components.Analyzers/9.0.7": {
+      "sha512": "SlMcfUJHFxjIFAecPY55in8u93AZo5NQrRlPY3hKrSsLEgyjjtZGzWIn+F9RluHw5wRct/QFRCt2sQwEhn8qtA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.analyzers/9.0.2",
+      "path": "microsoft.aspnetcore.components.analyzers/9.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2077,14 +2077,14 @@
         "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
         "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
-        "microsoft.aspnetcore.components.analyzers.9.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.9.0.7.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Forms/9.0.2": {
-      "sha512": "clU2grfLt7t7YsBft7laWtxGRtIRf5EQO1SaI05WvMfJNn2gm/IvyutGZLnYLsfgS9kyh+5qw8HR3Ku9dkcVaA==",
+    "Microsoft.AspNetCore.Components.Forms/9.0.7": {
+      "sha512": "ecnFWXV/ClmBfkevmalj1e1+T00AkihOyK8yQdKOwKmibraYphyup4BdOLP7v17PNVF4d5njsoHmFtVBvYpsJg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.forms/9.0.2",
+      "path": "microsoft.aspnetcore.components.forms/9.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2092,14 +2092,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net9.0/Microsoft.AspNetCore.Components.Forms.dll",
         "lib/net9.0/Microsoft.AspNetCore.Components.Forms.xml",
-        "microsoft.aspnetcore.components.forms.9.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.components.forms.9.0.7.nupkg.sha512",
         "microsoft.aspnetcore.components.forms.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Web/9.0.2": {
-      "sha512": "IsY38Fdzm4B7fy1FXzjITDFYxsR4bc/qQgyPJzMOtEcde31NeQTak0apIQKfaIXDU2jNjgt07ztWfqcCpWGHEQ==",
+    "Microsoft.AspNetCore.Components.Web/9.0.7": {
+      "sha512": "fP+WmahEXWgCTgL/aRo/y75v1nni8E8WfbpkbWOeMBk2UdQORqQbFPIkttu8JPYVACDfVYgEDKIDtVqEY9Akkg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.web/9.0.2",
+      "path": "microsoft.aspnetcore.components.web/9.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2107,7 +2107,7 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net9.0/Microsoft.AspNetCore.Components.Web.dll",
         "lib/net9.0/Microsoft.AspNetCore.Components.Web.xml",
-        "microsoft.aspnetcore.components.web.9.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.9.0.7.nupkg.sha512",
         "microsoft.aspnetcore.components.web.nuspec"
       ]
     },
@@ -2205,10 +2205,10 @@
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Metadata/9.0.2": {
-      "sha512": "sYLasa9sXXkVJ3BLsMi8Y7B0QnyedIJHQ3Jqh45ibABiPwJ4J13XioAa6oyP7VekmBIy7nq/BMAz1lX63P2fsg==",
+    "Microsoft.AspNetCore.Metadata/9.0.7": {
+      "sha512": "bM2x5yps2P6eXqFkR5ztKX7QRGGqJ4Vy5PxVdR7ADjYPNmMhrD57r8d9H++hpljk9sdjKI3Sppd7NZyA721nEA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.metadata/9.0.2",
+      "path": "microsoft.aspnetcore.metadata/9.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2220,7 +2220,7 @@
         "lib/net9.0/Microsoft.AspNetCore.Metadata.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
-        "microsoft.aspnetcore.metadata.9.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.9.0.7.nupkg.sha512",
         "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
@@ -4064,10 +4064,10 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.JSInterop/9.0.2": {
-      "sha512": "s3gOF+SDeKacf2s1WbN/cRhtxtcPAK6iolv9xA5uIup1NMCgW0+UzAvBZUhBCCPUDQd1N8VUPhyP7+7p/iaDXQ==",
+    "Microsoft.JSInterop/9.0.7": {
+      "sha512": "+FFcgE9nFf/M/8sSJPzKnGFkALO5Q3mCdljpsxe/ZFRt6bqMcImv8d74HgMamOauhmVlC7MU9GmnbblF9CpNlQ==",
       "type": "package",
-      "path": "microsoft.jsinterop/9.0.2",
+      "path": "microsoft.jsinterop/9.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4075,7 +4075,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net9.0/Microsoft.JSInterop.dll",
         "lib/net9.0/Microsoft.JSInterop.xml",
-        "microsoft.jsinterop.9.0.2.nupkg.sha512",
+        "microsoft.jsinterop.9.0.7.nupkg.sha512",
         "microsoft.jsinterop.nuspec"
       ]
     },

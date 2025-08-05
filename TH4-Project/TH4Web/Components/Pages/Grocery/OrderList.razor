@@ -1,0 +1,39 @@
+﻿@page "/Grocery/OrderList"
+
+
+
+
+<PageTitle>Order List</PageTitle>
+<MudText Typo="Typo.h3">Orders</MudText>
+
+
+
+<MudText Typo="Typo.h4"> Total Orders: @Order.Count()</MudText>
+<MudText Typo="Typo.h4">Total Orders Pick: @Order.Count(l => l.PickedDate != null) </MudText>
+
+<MudDataGrid Items="@Order" Filterable="false" SortMode="@SortMode.None" Groupable="false">
+    <Columns>
+        <TemplateColumn CellClass="d-flex justify-end">
+            <CellTemplate>
+                <MudStack Row>
+                    <MudButton Size="@Size.Small" Variant="@Variant.Filled" Color="@Color.Primary" Disabled="@context.Item.Delivery"
+                               OnClick="() => EditOrder(context.Item.OrderID)">Pick</MudButton>
+                </MudStack>
+            </CellTemplate>
+        </TemplateColumn>
+        <PropertyColumn Property="x => x.OrderID" />
+        <PropertyColumn Property="x => x.OrderDate" />
+        @* <PropertyColumn Property="x => x.YearsEmployed" Title="Years Employed" /> *@
+        @* <PropertyColumn Property="x => x.Salary" Format="C" /> *@
+        @* <PropertyColumn Property="x => x.StoreID" /> *@
+        <PropertyColumn Property="x => x.Location" />
+        @* <PropertyColumn Property="x => x.CustomerID" /> *@
+        <PropertyColumn Property="x => x.Customer" />
+        <PropertyColumn Property="x => x.Phone" />
+        <PropertyColumn Property="x => x.PickedDate" />
+        <PropertyColumn Property="x => x.Delivery" />
+        <PropertyColumn Property="x => x.SubTotal" />
+        <PropertyColumn Property="x => x.GST" />
+
+    </Columns>
+</MudDataGrid>

@@ -96,7 +96,7 @@ namespace HogWildWeb.Components.Pages.SamplePages
                         var invoiceResults = InvoiceService.GetCustomerInvoices(CustomerID);
                         if (invoiceResults.IsSuccess)
                         {
-                            invoices = invoiceResults.Value;                            
+                            invoices = invoiceResults.Value;
                         }
                         else
                         {
@@ -116,7 +116,7 @@ namespace HogWildWeb.Components.Pages.SamplePages
                 provinces = CategoryLookupService.GetLookups("Province");
                 countries = CategoryLookupService.GetLookups("Country");
                 statusLookup = CategoryLookupService.GetLookups("Customer Status");
-                
+
                 //  update that data has changed
                 StateHasChanged();
             }

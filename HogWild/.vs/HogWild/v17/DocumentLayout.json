@@ -1,19 +1,391 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4BCA35-521E-426F-89E7-722D000CA295}|HogWildSystem\\HogWildSystem.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildsystem\\hogwildextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4BCA35-521E-426F-89E7-722D000CA295}|HogWildSystem\\HogWildSystem.csproj|solutionrelative:hogwildsystem\\hogwildextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4BCA35-521E-426F-89E7-722D000CA295}|HogWildSystem\\HogWildSystem.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildsystem\\viewmodels\\invoiceview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4BCA35-521E-426F-89E7-722D000CA295}|HogWildSystem\\HogWildSystem.csproj|solutionrelative:hogwildsystem\\viewmodels\\invoiceview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4BCA35-521E-426F-89E7-722D000CA295}|HogWildSystem\\HogWildSystem.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildsystem\\bll\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4BCA35-521E-426F-89E7-722D000CA295}|HogWildSystem\\HogWildSystem.csproj|solutionrelative:hogwildsystem\\bll\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4BCA35-521E-426F-89E7-722D000CA295}|HogWildSystem\\HogWildSystem.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildsystem\\viewmodels\\partview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4BCA35-521E-426F-89E7-722D000CA295}|HogWildSystem\\HogWildSystem.csproj|solutionrelative:hogwildsystem\\viewmodels\\partview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4BCA35-521E-426F-89E7-722D000CA295}|HogWildSystem\\HogWildSystem.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildsystem\\entities\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4BCA35-521E-426F-89E7-722D000CA295}|HogWildSystem\\HogWildSystem.csproj|solutionrelative:hogwildsystem\\entities\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4BCA35-521E-426F-89E7-722D000CA295}|HogWildSystem\\HogWildSystem.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildsystem\\bll\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4BCA35-521E-426F-89E7-722D000CA295}|HogWildSystem\\HogWildSystem.csproj|solutionrelative:hogwildsystem\\bll\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\components\\pages\\samplepages\\customeredit.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\components\\pages\\samplepages\\customeredit.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\components\\pages\\samplepages\\customeredit.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\components\\pages\\samplepages\\customeredit.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\components\\pages\\samplepages\\invoiceedit.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\components\\pages\\samplepages\\invoiceedit.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\components\\pages\\samplepages\\customeredit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\components\\pages\\samplepages\\customeredit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\components\\pages\\samplepages\\invoiceedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\components\\pages\\samplepages\\invoiceedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4BCA35-521E-426F-89E7-722D000CA295}|HogWildSystem\\HogWildSystem.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildsystem\\bll\\categorylookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4BCA35-521E-426F-89E7-722D000CA295}|HogWildSystem\\HogWildSystem.csproj|solutionrelative:hogwildsystem\\bll\\categorylookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\components\\pages\\samplepages\\customerlist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\components\\pages\\samplepages\\customerlist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\components\\pages\\samplepages\\customerlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\components\\pages\\samplepages\\customerlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\components\\pages\\samplepages\\simplelisttolist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\components\\pages\\samplepages\\simplelisttolist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\components\\pages\\samplepages\\simplenonindexlist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\components\\pages\\samplepages\\simplenonindexlist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\components\\pages\\samplepages\\workingversions.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\components\\pages\\samplepages\\workingversions.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\components\\pages\\samplepages\\workingversions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\components\\pages\\samplepages\\workingversions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\components\\pages\\samplepages\\simplenonindexlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\components\\pages\\samplepages\\simplenonindexlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\components\\pages\\samplepages\\simplelisttolist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\components\\pages\\samplepages\\simplelisttolist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\components\\pages\\samplepages\\basics.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\components\\pages\\samplepages\\basics.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|c:\\users\\mesai\\onedrive\\documents\\github\\csharp\\hogwild\\hogwildweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E8CF5A-20E1-8EFF-B34E-375491E64BA2}|HogWildWeb\\HogWildWeb.csproj|solutionrelative:hogwildweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 146,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvoiceView.cs",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildSystem\\ViewModels\\InvoiceView.cs",
+              "RelativeDocumentMoniker": "HogWildSystem\\ViewModels\\InvoiceView.cs",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildSystem\\ViewModels\\InvoiceView.cs",
+              "RelativeToolTip": "HogWildSystem\\ViewModels\\InvoiceView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T01:46:02.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerEdit.razor.cs",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\CustomerEdit.razor.cs",
+              "RelativeDocumentMoniker": "HogWildWeb\\Components\\Pages\\SamplePages\\CustomerEdit.razor.cs",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\CustomerEdit.razor.cs",
+              "RelativeToolTip": "HogWildWeb\\Components\\Pages\\SamplePages\\CustomerEdit.razor.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAjwFEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T19:45:32.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildSystem\\BLL\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "HogWildSystem\\BLL\\InvoiceService.cs",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildSystem\\BLL\\InvoiceService.cs",
+              "RelativeToolTip": "HogWildSystem\\BLL\\InvoiceService.cs",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAAAGsBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T04:33:45.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Part.cs",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildSystem\\Entities\\Part.cs",
+              "RelativeDocumentMoniker": "HogWildSystem\\Entities\\Part.cs",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildSystem\\Entities\\Part.cs",
+              "RelativeToolTip": "HogWildSystem\\Entities\\Part.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T07:17:42.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InvoiceEdit.razor.cs",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\InvoiceEdit.razor.cs",
+              "RelativeDocumentMoniker": "HogWildWeb\\Components\\Pages\\SamplePages\\InvoiceEdit.razor.cs",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\InvoiceEdit.razor.cs",
+              "RelativeToolTip": "HogWildWeb\\Components\\Pages\\SamplePages\\InvoiceEdit.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T21:15:13.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildSystem\\BLL\\CustomerService.cs",
+              "RelativeDocumentMoniker": "HogWildSystem\\BLL\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildSystem\\BLL\\CustomerService.cs",
+              "RelativeToolTip": "HogWildSystem\\BLL\\CustomerService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvwsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:31:23.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerEdit.razor",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\CustomerEdit.razor",
+              "RelativeDocumentMoniker": "HogWildWeb\\Components\\Pages\\SamplePages\\CustomerEdit.razor",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\CustomerEdit.razor",
+              "RelativeToolTip": "HogWildWeb\\Components\\Pages\\SamplePages\\CustomerEdit.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T19:45:29.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InvoiceEdit.razor",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\InvoiceEdit.razor",
+              "RelativeDocumentMoniker": "HogWildWeb\\Components\\Pages\\SamplePages\\InvoiceEdit.razor",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\InvoiceEdit.razor",
+              "RelativeToolTip": "HogWildWeb\\Components\\Pages\\SamplePages\\InvoiceEdit.razor",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAcwNQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-26T03:02:55.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoryLookupService.cs",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildSystem\\BLL\\CategoryLookupService.cs",
+              "RelativeDocumentMoniker": "HogWildSystem\\BLL\\CategoryLookupService.cs",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildSystem\\BLL\\CategoryLookupService.cs",
+              "RelativeToolTip": "HogWildSystem\\BLL\\CategoryLookupService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T02:44:08.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "HogWildWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\appsettings.json",
+              "RelativeToolTip": "HogWildWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAACeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-22T17:54:42.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HogWildExtension.cs",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildSystem\\HogWildExtension.cs",
+              "RelativeDocumentMoniker": "HogWildSystem\\HogWildExtension.cs",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildSystem\\HogWildExtension.cs",
+              "RelativeToolTip": "HogWildSystem\\HogWildExtension.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T05:34:16.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerEdit.razor.css",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\CustomerEdit.razor.css",
+              "RelativeDocumentMoniker": "HogWildWeb\\Components\\Pages\\SamplePages\\CustomerEdit.razor.css",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\CustomerEdit.razor.css",
+              "RelativeToolTip": "HogWildWeb\\Components\\Pages\\SamplePages\\CustomerEdit.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-20T22:04:43.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PartView.cs",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildSystem\\ViewModels\\PartView.cs",
+              "RelativeDocumentMoniker": "HogWildSystem\\ViewModels\\PartView.cs",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildSystem\\ViewModels\\PartView.cs",
+              "RelativeToolTip": "HogWildSystem\\ViewModels\\PartView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T07:17:47.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerList.razor.cs",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\CustomerList.razor.cs",
+              "RelativeDocumentMoniker": "HogWildWeb\\Components\\Pages\\SamplePages\\CustomerList.razor.cs",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\CustomerList.razor.cs",
+              "RelativeToolTip": "HogWildWeb\\Components\\Pages\\SamplePages\\CustomerList.razor.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAswC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T02:56:02.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerList.razor",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\CustomerList.razor",
+              "RelativeDocumentMoniker": "HogWildWeb\\Components\\Pages\\SamplePages\\CustomerList.razor",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\CustomerList.razor",
+              "RelativeToolTip": "HogWildWeb\\Components\\Pages\\SamplePages\\CustomerList.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswEYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T02:54:03.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SimpleListToList.razor.cs",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\SimpleListToList.razor.cs",
+              "RelativeDocumentMoniker": "HogWildWeb\\Components\\Pages\\SamplePages\\SimpleListToList.razor.cs",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\SimpleListToList.razor.cs",
+              "RelativeToolTip": "HogWildWeb\\Components\\Pages\\SamplePages\\SimpleListToList.razor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T19:39:30.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SimpleNonIndexList.razor.cs",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\SimpleNonIndexList.razor.cs",
+              "RelativeDocumentMoniker": "HogWildWeb\\Components\\Pages\\SamplePages\\SimpleNonIndexList.razor.cs",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\SimpleNonIndexList.razor.cs",
+              "RelativeToolTip": "HogWildWeb\\Components\\Pages\\SamplePages\\SimpleNonIndexList.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T19:39:38.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WorkingVersions.razor.cs",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\WorkingVersions.razor.cs",
+              "RelativeDocumentMoniker": "HogWildWeb\\Components\\Pages\\SamplePages\\WorkingVersions.razor.cs",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\WorkingVersions.razor.cs",
+              "RelativeToolTip": "HogWildWeb\\Components\\Pages\\SamplePages\\WorkingVersions.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T04:18:03.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WorkingVersions.razor",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\WorkingVersions.razor",
+              "RelativeDocumentMoniker": "HogWildWeb\\Components\\Pages\\SamplePages\\WorkingVersions.razor",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\WorkingVersions.razor",
+              "RelativeToolTip": "HogWildWeb\\Components\\Pages\\SamplePages\\WorkingVersions.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T20:06:22.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SimpleNonIndexList.razor",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\SimpleNonIndexList.razor",
+              "RelativeDocumentMoniker": "HogWildWeb\\Components\\Pages\\SamplePages\\SimpleNonIndexList.razor",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\SimpleNonIndexList.razor",
+              "RelativeToolTip": "HogWildWeb\\Components\\Pages\\SamplePages\\SimpleNonIndexList.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T19:39:35.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Basics.razor",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\Basics.razor",
+              "RelativeDocumentMoniker": "HogWildWeb\\Components\\Pages\\SamplePages\\Basics.razor",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\Basics.razor",
+              "RelativeToolTip": "HogWildWeb\\Components\\Pages\\SamplePages\\Basics.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T19:38:59.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SimpleListToList.razor",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\SimpleListToList.razor",
+              "RelativeDocumentMoniker": "HogWildWeb\\Components\\Pages\\SamplePages\\SimpleListToList.razor",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Components\\Pages\\SamplePages\\SimpleListToList.razor",
+              "RelativeToolTip": "HogWildWeb\\Components\\Pages\\SamplePages\\SimpleListToList.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T19:37:12.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Program.cs",
+              "RelativeDocumentMoniker": "HogWildWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\mesai\\OneDrive\\Documents\\GitHub\\CSharp\\HogWild\\HogWildWeb\\Program.cs",
+              "RelativeToolTip": "HogWildWeb\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwDMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T04:17:32.547Z"
             }
           ]
         }

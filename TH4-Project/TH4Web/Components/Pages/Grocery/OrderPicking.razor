@@ -1,0 +1,100 @@
+﻿@page "/Grocery/OrderPicking/{orderID:int}"
+<PageTitle>Picking Order</PageTitle>
+
+<h3>OrderPicking</h3>
+
+<MudText Typo="Typo.h3">Customer Picking Order</MudText>
+
+
+
+@if (hasError)
+{
+    <MudAlert Severity="Severity.Error">
+        @if (!string.IsNullOrWhiteSpace(errorMessage))
+        {
+            <MudText>@errorMessage</MudText>
+        }
+        @if (errorDetails.Any())
+        {
+            <ul>
+                @foreach (var error in errorDetails)
+                {
+                    <li>@error</li>
+                }
+            </ul>
+        }
+    </MudAlert>
+}
+@if (hasFeedback)
+{
+    <MudAlert Severity="Severity.Success">@feedbackMessage</MudAlert>
+}
+
+<MudForm @ref="pickerForm" @bind-IsValid="isFormValid" @bind-IsTouched="hasDataChanged">
+    <MudStack>
+        <MudPaper Class="pa-3">Order No: @OrderView.OrderID</MudPaper>
+        <MudSelect T="int?" Label="Select Picker" @bind-Value="OrderView.PickerID" For="@(() => OrderView.PickerID)">
+            <MudSelectItem T="int?" Value="null">Please select a picker...</MudSelectItem>
+            @foreach (var picker in pickers)
+            {
+                <MudSelectItem T="int?" Value="@picker.PickerID">@picker.FullName</MudSelectItem>
+            }
+        </MudSelect>
+        <MudPaper Class="pa-3">Customer: @OrderView.Customer</MudPaper>
+        <MudPaper Class="pa-3">Phone: @OrderView.Phone</MudPaper>
+        <MudPaper Class="pa-3">Delivery Date: @OrderView.PickedDate</MudPaper>
+        <MudPaper Class="pa-3">Delivery: @OrderView.Delivery</MudPaper>
+        <MudPaper Class="pa-3">Full Pick: @(@OrderView.OrderList.Max(e => e.QtyOrdered - e.QtyPicked) == 0 ? "True" : "False")</MudPaper>
+    </MudStack>
+
+    <MudDataGrid Items="@OrderView.OrderList" Filterable="false" SortMode="@SortMode.None" Groupable="false">
+        <Columns>
+
+            <PropertyColumn Property="x => x.Product" Title="Product" Editable="false" />
+            <PropertyColumn Property="x => x.QtyOrdered" Title="Req.Qty" />
+            <PropertyColumn Property="x => x.CustomerComment" Title="Direction" />
+            <TemplateColumn>
+                <CellTemplate>
+                    <MudNumericField T="double?" Value="context.Item.QtyPicked"
+                                     ValueChanged="@((double? newValue) => OnQtyPickedChanged(context.Item, newValue))"
+                                     Margin="Margin.Dense"
+                                     Immediate="true"
+                                     Min="0.00" />
+                </CellTemplate>
+            </TemplateColumn>
+            <TemplateColumn>
+                <CellTemplate>
+                    <MudTextField Value="context.Item.PickIssue"
+                                  ValueChanged="@((string newValue) => OnPickIssueChanged(context.Item, newValue))"
+                                  Margin="Margin.Dense"
+                                  Immediate="true" />
+                </CellTemplate>
+            </TemplateColumn>
+        </Columns>
+    </MudDataGrid>
+</MudForm>
+<MudItem xs="12">
+    <MudButton Variant="Variant.Filled"
+               Color="Color.Primary"
+               OnClick="Save">
+        Save
+    </MudButton>
+    <MudButton Variant="Variant.Filled"
+               Color="Color.Error"
+               OnClick="Close"
+               Class="ml-4">
+        @closeButtonText
+    </MudButton>
+    <MudButton Variant="Variant.Filled"
+               Color="Color.Primary"
+               OnClick="SetDelivery">
+        Set Delivery
+    </MudButton>
+    <MudButton Variant="Variant.Filled"
+               Color="Color.Primary"
+               OnClick="Clear">
+        Clear
+    </MudButton>
+
+</MudItem>
+
