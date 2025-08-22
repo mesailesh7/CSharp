@@ -1,0 +1,50 @@
+﻿@page "/menus/details"
+@using Microsoft.EntityFrameworkCore
+@using OnlineShopBlazor.Models.Db
+@inject IDbContextFactory<OnlineShopBlazor.Models.Db.OnlineShopContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Details</PageTitle>
+
+<h1>Details</h1>
+
+<div>
+    <h2>Menu</h2>
+    <hr />
+    @if (menu is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">MenuTitle</dt>
+            <dd class="col-sm-10">@menu.MenuTitle</dd>
+            <dt class="col-sm-2">Link</dt>
+            <dd class="col-sm-10">@menu.Link</dd>
+            <dt class="col-sm-2">Type</dt>
+            <dd class="col-sm-10">@menu.Type</dd>
+        </dl>
+        <div>
+            <a href="@($"/menus/edit?id={menu.Id}")">Edit</a> |
+            <a href="@($"/menus")">Back to List</a>
+        </div>
+    }
+</div>
+
+@code {
+    private Menu? menu;
+
+    [SupplyParameterFromQuery]
+    private int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        menu = await context.Menus.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (menu is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}

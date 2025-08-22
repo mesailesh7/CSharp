@@ -266,8 +266,8 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
             user = new ApplicationUser 
             {
                 Id = "15b6e2f5-af87-44e7-aa3e-51054d911edd",
-                UserName = "parts@ebikes.com", 
-                Email = "parts@ebikes.com", 
+                UserName = "salesParts@ebikes.com", 
+                Email = "salesParts@ebikes.com", 
                 Address = "12345 - 67 St", 
                 City = "Edmonton",
                 Province = "AB",

@@ -1,0 +1,54 @@
+﻿@page "/menus/create"
+@using Microsoft.EntityFrameworkCore
+@using OnlineShopBlazor.Models.Db
+@inject IDbContextFactory<OnlineShopBlazor.Models.Db.OnlineShopContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Create</PageTitle>
+
+<h1>Create</h1>
+
+<h2>Menu</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="Menu" OnValidSubmit="AddMenu" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" role="alert"/>
+            <div class="mb-3">
+                <label for="menutitle" class="form-label">MenuTitle:</label> 
+                <InputText id="menutitle" @bind-Value="Menu.MenuTitle" class="form-control" /> 
+                <ValidationMessage For="() => Menu.MenuTitle" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="link" class="form-label">Link:</label> 
+                <InputText id="link" @bind-Value="Menu.Link" class="form-control" /> 
+                <ValidationMessage For="() => Menu.Link" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="type" class="form-label">Type:</label> 
+                <InputText id="type" @bind-Value="Menu.Type" class="form-control" /> 
+                <ValidationMessage For="() => Menu.Type" class="text-danger" /> 
+            </div>        
+            <button type="submit" class="btn btn-primary">Create</button>
+        </EditForm>
+    </div>
+</div>
+
+<div>
+    <a href="/menus">Back to List</a>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    private Menu Menu { get; set; } = new();
+
+    // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task AddMenu()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Menus.Add(Menu);
+        await context.SaveChangesAsync();
+        NavigationManager.NavigateTo("/menus");
+    }
+}
