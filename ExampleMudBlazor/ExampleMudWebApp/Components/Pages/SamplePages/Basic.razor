@@ -1,0 +1,51 @@
+﻿@page "/Basic/"
+
+
+<h1>Introduction to rage page</h1>
+
+<div>
+    <h3>Demonstration of using methods</h3>
+    @if(isEven)
+    {
+        <p>My name is {@My_Name} and number is {@oddEvenValue}</p>
+    }
+    else
+    {
+        <p>The random number is odd {@oddEvenValue}</p>
+    }
+    
+    <button @onclick="RandomValue">
+        Random Number
+
+    </button>
+</div>
+
+
+<div style="max-width: 50%" class="mt-2">
+    <h3>Text Boxes</h3>
+    <div class="mb-3">
+        <label for="emailExample" class="form-label">Enter an Email</label>
+        <input type="email" class="form-control" id="emailExample" @bind="emailText">
+    </div>
+    <div class="mb-3">
+        <label for="passwordExample" class="form-label">Enter an Password</label>
+        <input type="password" class="form-control" id="passwordExample" @bind="passwordText">
+    </div>
+    <div class="mb-3">
+        <label for="dateExample" class="form-label">Enter a Date</label>
+        <input type="date" class="form-control" id="dateExample" @bind="dateText">
+    </div>
+    <button class="btn btn-info" @onclick="TextSubmit">
+        Text Submit
+    </button>
+</div>
+
+@if (!string.IsNullOrEmpty(feedback))
+{
+    <p>{@feedback}</p>    
+}
+
+
+<div>
+    <h3>Radio Buttons Checbbox TextArea</h3>
+</div>
