@@ -5,6 +5,7 @@ using MudBlazor.Services;
 using ExampleMudWebApp.Components;
 using ExampleMudWebApp.Components.Account;
 using ExampleMudWebApp.Data;
+using ExampleMudSystem;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +29,13 @@ builder.Services.AddAuthentication(options =>
     .AddIdentityCookies();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
+var connectionStringHogWild = builder.Configuration.GetConnectionString("OLTP-DMIT2018");
+
+builder.Services.AddBackendDependencies(options =>
+options.UseSqlServer(connectionStringHogWild));
+
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();

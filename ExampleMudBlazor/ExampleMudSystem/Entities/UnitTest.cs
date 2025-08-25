@@ -10,7 +10,7 @@ namespace ExampleMudSystem.Entities;
 
 [Keyless]
 [Table("UnitTest")]
-public partial class UnitTest
+internal partial class UnitTest
 {
     public int UnitTestID { get; set; }
 

@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace ExampleMudSystem.Entities;
 
 [Table("Customer")]
-public partial class Customer
+internal partial class Customer
 {
     [Key]
     public int CustomerID { get; set; }

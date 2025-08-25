@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ExampleMudSystem.DAL;
 
-public partial class OLTPDMIT2018Context : DbContext
+internal partial class OLTPDMIT2018Context : DbContext
 {
     public OLTPDMIT2018Context(DbContextOptions<OLTPDMIT2018Context> options)
         : base(options)
