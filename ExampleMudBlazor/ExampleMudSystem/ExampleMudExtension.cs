@@ -13,7 +13,7 @@ namespace ExampleMudSystem
 {
     public static class ExampleMudExtension
     {
-        public static void AddBackendDependencies(this IServiceCollection services, 
+        public static void AddBackendDependencies(this IServiceCollection services,
             Action<DbContextOptionsBuilder> options)
         {
             services.AddDbContext<OLTPDMIT2018Context>(options);
@@ -23,7 +23,7 @@ namespace ExampleMudSystem
                 var context = ServiceProvider.GetService<OLTPDMIT2018Context>();
 
                 return new WorkingVersionsService(context);
-            })
+            });
         }
     }
 }
