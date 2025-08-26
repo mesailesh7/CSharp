@@ -139,5 +139,114 @@ namespace ExampleMudSystem.BLL
             return result.WithValue(customer);
         }
 
+        public Result<CustomerEditView> AddEditCustomer(CustomerEditView editCustomer)
+        {
+            var result = new Result<CustomerEditView>();
+
+            #region Data Validation
+
+            if (editCustomer == null)
+            {
+                result.AddError(new BYSResults.Error("Missing Customer", "No customer object was supplied"));
+
+                return result;
+            }
+             if (string.IsNullOrWhiteSpace(editCustomer.FirstName))
+            {
+                result.AddError(new BYSResults.Error("Missing information",
+                                                "First name required!"));
+            }
+
+            if (string.IsNullOrWhiteSpace(editCustomer.LastName))
+            {
+                result.AddError(new BYSResults.Error("Missing information",
+                                                "Last name required!"));
+            }
+
+            if (string.IsNullOrWhiteSpace(editCustomer.Address1))
+            {
+                result.AddError(new BYSResults.Error("Missing information",
+                                                "Address Line 1 required!"));
+            }
+
+            if (string.IsNullOrWhiteSpace(editCustomer.City))
+            {
+                result.AddError(new BYSResults.Error("Missing information",
+                                                "City required!"));
+            }
+
+            if (editCustomer.ProvStateID <= 0)
+            {
+                result.AddError(new BYSResults.Error("Missing Information!",
+                            "Province/State ID must be greater than zero!"));
+            }
+
+            if (editCustomer.CountryID <= 0)
+            {
+                result.AddError(new BYSResults.Error("Missing Information!",
+                            "Country ID must be greater than zero!"));
+            }
+
+            if (string.IsNullOrWhiteSpace(editCustomer.PostalCode))
+            {
+                result.AddError(new BYSResults.Error("Missing information",
+                                                "Postal code required!"));
+            }
+
+            if (string.IsNullOrWhiteSpace(editCustomer.Phone))
+            {
+                result.AddError(new BYSResults.Error("Missing information",
+                                                "Phone number required!"));
+            }
+
+            if (string.IsNullOrWhiteSpace(editCustomer.Email))
+            {
+                result.AddError(new BYSResults.Error("Missing information",
+                                                "Email is required!"));
+            }
+
+            if (editCustomer.StatusID <= 0)
+            {
+                result.AddError(new BYSResults.Error("Missing Information!",
+                            "Status ID must be greater than zero!"));
+            }
+
+            if (result.Errors.Count > 0)
+            {
+                return result;
+            }
+        
+            #endregion
+
+            #region Business Rules
+
+            if (editCustomer.CustomerID <= 0)
+            {
+                bool customerExist = _hogWildContext.Customers
+                    .Any(customer =>
+                        customer.FirstName.ToLower() == editCustomer.FirstName.ToLower()
+                        && customer.LastName.ToLower() == editCustomer.LastName.ToLower()
+                        && customer.Phone.ToLower() == editCustomer.Phone.ToLower()
+                    );
+
+                if (customerExist)
+                {
+                    result.AddError(new BYSResults.Error("Existing Customer Data",
+                        "A customer with the same first name , last name" +
+                        " and phone number already exists in the database"));
+                }
+            }
+
+            if (result.IsFailure)
+            {
+                return result;
+            }
+            
+           
+                
+
+            #endregion
+        }
+
     }
 }

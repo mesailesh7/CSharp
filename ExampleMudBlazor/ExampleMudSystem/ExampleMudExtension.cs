@@ -35,6 +35,13 @@ namespace ExampleMudSystem
 
                 return new CustomerService(context);
             });
+            
+            services.AddTransient<CategoryLookupService>((ServiceProvider) =>
+            {
+                var context = ServiceProvider.GetService<OLTPDMIT2018Context>();
+
+                return new CategoryLookupService(context);
+            });
         }
     }
 }

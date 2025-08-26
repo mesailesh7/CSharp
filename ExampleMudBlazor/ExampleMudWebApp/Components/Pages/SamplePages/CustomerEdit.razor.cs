@@ -22,9 +22,9 @@ namespace ExampleMudWebApp.Components.Pages.SamplePages
         private CustomerEditView customer = new();
         private MudForm customerForm = new();
         
-        
-        
-
+        private List<LookupView> provinces = new();
+        private List<LookupView> countries = new();
+        private List<LookupView> statusLookup = new();
         #endregion
 
         #region Properties
@@ -66,6 +66,11 @@ namespace ExampleMudWebApp.Components.Pages.SamplePages
                 {
                     customer = new();
                 }
+                
+                //lookups
+                provinces = CategoryLookupService.GetLookups("province");
+                countries = CategoryLookupService.GetLookups("Country");
+                statusLookup = CategoryLookupService.GetLookups("Customer Status");
 
                 StateHasChanged();
             }
@@ -75,6 +80,29 @@ namespace ExampleMudWebApp.Components.Pages.SamplePages
             }
 
             #endregion
+        }
+
+        private void Save()
+        {
+            errorDetails.Clear();
+            errorMessage = string.Empty;
+            feedbackMessage = string.Empty;
+
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                throw;
+            }
+
+        }
+
+        private void Cancel()
+        {
+            
         }
     
 }

@@ -63,6 +63,86 @@ else
                 MaxLength="50"
                 Immediate="true"
             />
+            <MudTextField
+                Label="Address 2"
+                @bind-Value="customer.Address2"
+                Variant="Variant.Outlined"
+                MaxLength="50"
+                Immediate="true"
+            />
+            <MudTextField
+                @bind-Value="customer.City"
+                Variant="Variant.Outlined"
+                Required="true"
+                RequiredError="City is required."
+                MaxLength="50"
+                Immediate="true"
+            />
+            <MudSelect
+                @bind-Value="customer.ProvStateID"
+                Variant="Variant.Outlined"
+                Label="Province"
+                Required="true"
+                RequiredError="You must select a province">
+                @foreach (var item in provinces)
+                {
+                    <MudSelectItem T="int" Value="@item.LookupID">@item.Name</MudSelectItem>
+                }
+            </MudSelect>
+        </MudItem>
+        <MudItem xs="6">
+            <MudSelect
+                @bind-Value="customer.CountryID"
+                Variant="Variant.Outlined"
+                Label="Country"
+                Required="true"
+                RequiredError="You must select a Country">
+                @foreach (var item in countries)
+                {
+                    <MudSelectItem T="int" Value="@item.LookupID">@item.Name</MudSelectItem>
+                }
+            </MudSelect>
+            <MudTextField
+                Label="Postal Code"
+                @bind-Value="customer.PostalCode"
+                Variant="Variant.Outlined"
+                Required="true"
+                RequiredError="Postal code is required"
+                MaxLength="20"
+                Immediate="true"
+            />
+            <MudTextField
+                Label="Phone Number"
+                @bind-Value="customer.Phone"
+                Variant="Variant.Outlined"
+                Required="true"
+                RequiredError="Phone Number is required"
+                MaxLength="20"
+                Format="###-###-####"
+                Immediate="true"
+            />
+            <MudTextField
+                  Label="Email"
+                  @bind-Value="customer.Email"
+                  Variant="Variant.Outlined"
+                  Required="true"
+                  RequiredError="Email is required"
+                  MaxLength="250"
+                  InputType="InputType.Email"
+                  Immediate="true"
+              />
+            <MudSelect
+                @bind-Value="customer.StatusID"
+                Variant="Variant.Outlined"
+                Label="Customer Status"
+                Required="true"
+                RequiredError="You must select a customer status."
+                >
+                @foreach (var item in statusLookup)
+                {
+                    <MudSelectItem T="int" Value="@item.LookupID">@item.Name</MudSelectItem>
+                }
+            </MudSelect>
         </MudItem>
     </MudGrid>
 </MudForm>
