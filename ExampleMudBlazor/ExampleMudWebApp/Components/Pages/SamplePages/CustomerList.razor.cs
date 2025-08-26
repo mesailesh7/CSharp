@@ -2,6 +2,7 @@ using ExampleMudSystem.BLL;
 using ExampleMudSystem.ViewModels;
 using Microsoft.AspNetCore.Components;
 using System.IO.Compression;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace ExampleMudWebApp.Components.Pages.SamplePages
 {
@@ -65,10 +66,15 @@ namespace ExampleMudWebApp.Components.Pages.SamplePages
             }
         }
 
-        private void New() { }
+        private void New()
+        {
+            NavigationManager.NavigateTo("/SamplePagges/CustomerEdit/0");
+        }
 
         private void EditCustomer(int customerID)
-        { }
+        {
+            NavigationManager.NavigateTo($"/SamplePages/CustomerEdit/{customerID}");
+        }
 
         private void NewInvoice(int customerID) { }
         #endregion
