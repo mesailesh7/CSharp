@@ -16,13 +16,24 @@ namespace ExampleMudSystem
         public static void AddBackendDependencies(this IServiceCollection services,
             Action<DbContextOptionsBuilder> options)
         {
+            
             services.AddDbContext<OLTPDMIT2018Context>(options);
 
+            
             services.AddTransient<WorkingVersionsService>((ServiceProvider) =>
             {
                 var context = ServiceProvider.GetService<OLTPDMIT2018Context>();
 
                 return new WorkingVersionsService(context);
+            });
+
+
+
+            services.AddTransient<CustomerService>((ServiceProvider) =>
+            {
+                var context = ServiceProvider.GetService<OLTPDMIT2018Context>();
+
+                return new CustomerService(context);
             });
         }
     }

@@ -30,7 +30,7 @@ namespace ExampleMudSystem.BLL
             if (string.IsNullOrWhiteSpace(lastName) &&
                                     string.IsNullOrWhiteSpace(phone))
             {
-                result.AddError(new BYSResults.Error("Missing Information!",
+                result.AddError(new Error("Missing Information!",
                             "Must provide either last name or phone number!"));
 
                 // Only one check needed, so if this condition occurs, return
@@ -79,5 +79,65 @@ namespace ExampleMudSystem.BLL
             //		send back the List<CustomerSearchView>.
             return result.WithValue(customers);
         }
+
+
+        public Result<CustomerEditView> GetCustomer(int customerID)
+        {
+            var result = new Result<CustomerEditView>();
+
+            #region Data Validation and BusinessRules - This time combined
+
+            // Rule: Provided customer ID must be valid.  Greater then zero.
+            if (customerID <= 0)
+            {
+                result.AddError(new BYSResults.Error("Missing Information!",
+                            "Customer ID must be greater than zero!"));
+
+                // Only one check needed, so if this condition occurs, return
+                //		immediately.  No point in carrying on.
+
+                return result;
+            }
+
+            #endregion
+
+            // In this case, we wish to retrieve all pieces of information
+            //		for the customer matching the provided customer ID.
+            var customer = _hogWildContext.Customers
+                           .Where(c => c.CustomerID == customerID
+                                       && !c.RemoveFromViewFlag)
+                           .Select(c => new CustomerEditView
+                           {
+                               CustomerID = c.CustomerID,
+                               FirstName = c.FirstName,
+                               LastName = c.LastName,
+                               Address1 = c.Address1,
+                               Address2 = c.Address2,
+                               City = c.City,
+                               ProvStateID = c.ProvStateID,
+                               CountryID = c.CountryID,
+                               PostalCode = c.PostalCode,
+                               Phone = c.Phone,
+                               Email = c.Email,
+                               StatusID = c.StatusID,
+                               RemoveFromViewFlag = c.RemoveFromViewFlag
+                           })
+                           .FirstOrDefault();
+
+            // If no matching customer is found, return an error message
+            if (customer == null)
+            {
+                result.AddError(new BYSResults.Error("No Customer!",
+                            "There is no customer with the provided customer ID!"));
+
+                // No other errors possible at this point, so return immediately.
+                return result;
+            }
+
+            // If we make it to here, we have customer information to return, so
+            //		send back the populated CustomerEditView.
+            return result.WithValue(customer);
+        }
+
     }
 }
