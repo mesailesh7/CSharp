@@ -27,6 +27,13 @@ namespace ExampleMudWebApp.Components.Pages.SamplePages
         private List<LookupView> statusLookup = new();
         #endregion
 
+        #region  Validation
+
+        private bool isFormValid;
+        private bool hasDataChanged = false;
+        private string closeButtonText => hasDataChanged ? "Cancel" : "Close";
+        #endregion
+        
         #region Properties
 
         [Inject] protected CustomerService CustomerService { get; set; } = default!;
@@ -36,6 +43,8 @@ namespace ExampleMudWebApp.Components.Pages.SamplePages
         [Inject] 
         protected NavigationManager NavigationManager { get; set; } = default!;
         [Parameter] public int CustomerID { get; set; } = 0;
+        [Inject]
+        protected IDialogService DialogService { get; set; } = default!;
 
         #endregion
 
@@ -98,6 +107,10 @@ namespace ExampleMudWebApp.Components.Pages.SamplePages
                 {
                     customer = result.Value;
                     feedbackMessage = "Customer Saved";
+
+                    hasDataChanged = false;
+                    isFormValid = false;
+                        customerForm.ResetTouched();
                 }
                 else
                 {
@@ -111,8 +124,17 @@ namespace ExampleMudWebApp.Components.Pages.SamplePages
 
         }
 
-        private void Cancel()
+        private async Task Cancel()
         {
+            if (hasDataChanged)
+            {
+                bool? results = await DialogService.ShowMessageBox("Confirm Cancel", $"Do you  want to cancel the changes?", "Yes", "No");
+
+                if (results == null)
+                {
+                    return;
+                }
+            }
             NavigationManager.NavigateTo("/SamplePages/CustomerList");
         }
     

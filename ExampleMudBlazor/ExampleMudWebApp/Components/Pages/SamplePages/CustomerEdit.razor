@@ -33,7 +33,7 @@ else
     </MudAlert>
 }
 
-<MudForm @ref="customerForm">
+<MudForm @ref="customerForm" @bind-IsValid="isFormValid" @bind-IsTouched="hasDataChanged">
     <MudGrid>
         <MudItem xs="6">
             <MudTextField
@@ -137,12 +137,14 @@ else
                 Label="Customer Status"
                 Required="true"
                 RequiredError="You must select a customer status."
-                >
+            >
                 @foreach (var item in statusLookup)
                 {
                     <MudSelectItem T="int" Value="@item.LookupID">@item.Name</MudSelectItem>
                 }
             </MudSelect>
-        </MudItem>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="Save" Disabled="@(!isFormValid || !hasDataChanged)">Save</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="Cancel" Class="ml-4">@closeButtonText</MudButton>
+            </MudItem>
     </MudGrid>
 </MudForm>
