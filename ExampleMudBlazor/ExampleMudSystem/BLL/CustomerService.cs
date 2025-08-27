@@ -293,5 +293,16 @@ namespace ExampleMudSystem.BLL
             return GetCustomer(customer.CustomerID);
         }
 
+        public string GetCustomerFullName(int customerID)
+        {
+            return _hogWildContext.Customers
+                       .Where(x => x.CustomerID == customerID
+                                   && !x.RemoveFromViewFlag)
+                       .Select(x => $"{x.FirstName} {x.LastName}")
+                       .FirstOrDefault()
+                   ?? string.Empty;
+        }
+        
+        
     }
 }
