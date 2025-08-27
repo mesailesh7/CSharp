@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BYSResults;
+using ExampleMudSystem.Entities;
+using ExampleMudWebApp;
 
 namespace ExampleMudSystem.BLL
 {
@@ -242,10 +244,53 @@ namespace ExampleMudSystem.BLL
                 return result;
             }
             
-           
-                
-
             #endregion
+
+            Customer customer = _hogWildContext.Customers
+                .Where(x => x.CustomerID == editCustomer.CustomerID)
+                .FirstOrDefault();
+            if (customer == null)
+            {
+                customer = new Customer();
+            }
+            
+            customer.FirstName = editCustomer.FirstName;
+            customer.LastName = editCustomer.LastName;
+            customer.Address1 = editCustomer.Address1;
+            customer.Address2 = editCustomer.Address2;
+            customer.City = editCustomer.City;
+            customer.ProvStateID = editCustomer.ProvStateID;
+            customer.CountryID = editCustomer.CountryID;
+            customer.PostalCode = editCustomer.PostalCode;
+            customer.Email = editCustomer.Email;
+            customer.Phone = editCustomer.Phone;
+            customer.StatusID = editCustomer.StatusID;
+            customer.RemoveFromViewFlag = editCustomer.RemoveFromViewFlag;
+
+            if (customer.CustomerID <= 0)
+            {
+                _hogWildContext.Customers.Add(customer);
+            }
+            else
+            {
+                _hogWildContext.Customers.Update(customer);
+            }
+
+            try
+            {
+                _hogWildContext.SaveChanges();
+            }
+            catch (Exception e)
+            {
+            _hogWildContext.ChangeTracker.Clear();
+
+            result.AddError(
+                new BYSResults.Error("Error Saving changes", HelperMethods.GetInnerMostException(e).Message));
+
+            return result;
+            }
+
+            return GetCustomer(customer.CustomerID);
         }
 
     }

@@ -33,6 +33,8 @@ namespace ExampleMudWebApp.Components.Pages.SamplePages
         
         [Inject] protected CategoryLookupService CategoryLookupService { get; set; } = default!;
         
+        [Inject] 
+        protected NavigationManager NavigationManager { get; set; } = default!;
         [Parameter] public int CustomerID { get; set; } = 0;
 
         #endregion
@@ -90,19 +92,28 @@ namespace ExampleMudWebApp.Components.Pages.SamplePages
 
             try
             {
+                var result = CustomerService.AddEditCustomer(customer);
 
+                if (result.IsSuccess)
+                {
+                    customer = result.Value;
+                    feedbackMessage = "Customer Saved";
+                }
+                else
+                {
+                    errorDetails = HelperMethods.GetErrorMessages(result.Errors.ToList());
+                }
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex);
-                throw;
+                errorMessage = ex.Message;
             }
 
         }
 
         private void Cancel()
         {
-            
+            NavigationManager.NavigateTo("/SamplePages/CustomerList");
         }
     
 }
