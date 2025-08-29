@@ -122,15 +122,15 @@ else
                 Immediate="true"
             />
             <MudTextField
-                  Label="Email"
-                  @bind-Value="customer.Email"
-                  Variant="Variant.Outlined"
-                  Required="true"
-                  RequiredError="Email is required"
-                  MaxLength="250"
-                  InputType="InputType.Email"
-                  Immediate="true"
-              />
+                Label="Email"
+                @bind-Value="customer.Email"
+                Variant="Variant.Outlined"
+                Required="true"
+                RequiredError="Email is required"
+                MaxLength="250"
+                InputType="InputType.Email"
+                Immediate="true"
+            />
             <MudSelect
                 @bind-Value="customer.StatusID"
                 Variant="Variant.Outlined"
@@ -144,7 +144,16 @@ else
                 }
             </MudSelect>
             <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="Save" Disabled="@(!isFormValid || !hasDataChanged)">Save</MudButton>
-        <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="Cancel" Class="ml-4">@closeButtonText</MudButton>
-            </MudItem>
+            <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="Cancel" Class="ml-4">@closeButtonText</MudButton>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled="@disableViewButton" OnClick="NewInvoice">New Invoice</MudButton>
+        </MudItem>
+        <p style="white-space:pre-line"></p>
+        <div class="previous-purchases">
+            <h2>Previous Purchases</h2>
+            <QuickGrid >
+                
+            </QuickGrid>
+
+        </div>
     </MudGrid>
 </MudForm>
