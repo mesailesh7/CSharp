@@ -175,3 +175,7 @@ namespace Backend.Controllers
 
 
 }
+
+//CORS error (Cross origin resource sharing)
+//server app : http://localhost:3000
+//client app (js app) : http://localhost:5173
