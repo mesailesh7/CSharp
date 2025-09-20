@@ -5,6 +5,27 @@ POST {{base_address}}
 Content-Type: application/json
 
 {
-    "firstName" : "John",
-    "lastName" : "Doe"
+    "firstName" : "Sun",
+    "lastName" : "T"
 }
+
+###
+GET  {{base_address}}
+
+###
+GET  {{base_address}}/1
+
+###
+PUT  {{base_address}}/3
+# {{Accept: application/json}}
+Content-Type: application/json
+
+{
+    "id":3,
+    "firstName" : "Something",
+    "lastName" : "T"
+}
+
+
+###
+DELETE {{base_address}}/3
