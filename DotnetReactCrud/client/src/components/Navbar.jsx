@@ -3,8 +3,6 @@ import { useState } from "react";
 import { NavLink } from "react-router";
 
 const Navbar = () => {
-  const activeLink = "Home";
-
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -23,33 +21,39 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-8">
               <NavLink
                 to="/"
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 transform hover:scale-105 ${
-                  activeLink === "Home"
-                    ? "bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-lg"
-                    : "text-gray-700 hover:text-blue-600 hover:bg-blue-50"
-                }`}
+                className={({ isActive }) =>
+                  `px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 transform hover:scale-105 ${
+                    isActive
+                      ? "bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-lg"
+                      : "text-gray-700 hover:text-blue-600 hover:bg-blue-50"
+                  }`
+                }
               >
                 Home
               </NavLink>
 
               <NavLink
                 to="/about"
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 transform hover:scale-105 ${
-                  activeLink === "About"
-                    ? "bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-lg"
-                    : "text-gray-700 hover:text-blue-600 hover:bg-blue-50"
-                }`}
+                className={({ isActive }) =>
+                  `px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 transform hover:scale-105 ${
+                    isActive
+                      ? "bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-lg"
+                      : "text-gray-700 hover:text-blue-600 hover:bg-blue-50"
+                  }`
+                }
               >
                 About
               </NavLink>
 
               <NavLink
                 to="/person"
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 transform hover:scale-105 ${
-                  activeLink === "Person"
-                    ? "bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-lg"
-                    : "text-gray-700 hover:text-blue-600 hover:bg-blue-50"
-                }`}
+                className={({ isActive }) =>
+                  `px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 transform hover:scale-105 ${
+                    isActive
+                      ? "bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-lg"
+                      : "text-gray-700 hover:text-blue-600 hover:bg-blue-50"
+                  }`
+                }
               >
                 Person
               </NavLink>
@@ -85,33 +89,39 @@ const Navbar = () => {
         <div className="px-2 pt-2 pb-3 space-y-1 bg-gray-50 border-t border-gray-200">
           <NavLink
             to="/"
-            className={`block px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
-              activeLink === "Home"
-                ? "bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-md transform scale-105"
-                : "text-gray-700 hover:text-blue-600 hover:bg-white hover:shadow-sm"
-            }`}
+            className={({ isActive }) =>
+              `block px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
+                isActive
+                  ? "bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-md transform scale-105"
+                  : "text-gray-700 hover:text-blue-600 hover:bg-white hover:shadow-sm"
+              }`
+            }
           >
             Home
           </NavLink>
 
           <NavLink
             to="/about"
-            className={`block px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
-              activeLink === "About"
-                ? "bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-md transform scale-105"
-                : "text-gray-700 hover:text-blue-600 hover:bg-white hover:shadow-sm"
-            }`}
+            className={({ isActive }) =>
+              `block px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
+                isActive
+                  ? "bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-md transform scale-105"
+                  : "text-gray-700 hover:text-blue-600 hover:bg-white hover:shadow-sm"
+              }`
+            }
           >
             About
           </NavLink>
 
           <NavLink
             to="/person"
-            className={`block px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
-              activeLink === "Person"
-                ? "bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-md transform scale-105"
-                : "text-gray-700 hover:text-blue-600 hover:bg-white hover:shadow-sm"
-            }`}
+            className={({ isActive }) =>
+              `block px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
+                isActive
+                  ? "bg-gradient-to-r from-blue-500 to-purple-500 text-white shadow-md transform scale-105"
+                  : "text-gray-700 hover:text-blue-600 hover:bg-white hover:shadow-sm"
+              }`
+            }
           >
             Person
           </NavLink>
