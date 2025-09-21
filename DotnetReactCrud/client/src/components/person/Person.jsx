@@ -1,8 +1,24 @@
+import { useEffect, useState } from "react";
 import PersonForm from "./PersonForm";
 import PersonList from "./PersonList";
 import { useForm } from "react-hook-form";
 
 function Person() {
+  const [people, setPeople] = useState([
+    { id: 1, firstName: "John", lastName: "Doe" },
+    { id: 2, firstName: "John 1", lastName: "Doe 1" },
+    { id: 3, firstName: "John 2", lastName: "Doe 2" },
+  ]);
+
+  const [editData, setEditData] = useState(null);
+
+  useEffect(
+    (person) => {
+      methods.reset(editData);
+    },
+    [editData]
+  );
+
   const defaultFormValues = {
     id: 0,
     firstName: "",
@@ -13,14 +29,8 @@ function Person() {
     defaultValues: defaultFormValues,
   });
 
-  const people = [
-    { id: 1, firstName: "John", lastName: "Doe" },
-    { id: 2, firstName: "John 1", lastName: "Doe 1" },
-    { id: 3, firstName: "John 2", lastName: "Doe 2" },
-  ];
-
   const handlePersonEdit = (person) => {
-    console.log(person);
+    setEditData(person);
   };
   const handlePersonDelete = (person) => {
     if (
@@ -30,14 +40,26 @@ function Person() {
     )
       return;
 
-    console.log(person);
+    setPeople((previousPerson) =>
+      previousPerson.filter((p) => p.id !== person.id)
+    );
   };
 
   const handleFormReset = () => {
     methods.reset(defaultFormValues);
   };
 
-  const handleSubmit = (data) => console.log(data);
+  const handleFormSubmit = (person) => {
+    if (person.id < 1) {
+      console.log("add");
+      setPeople((previousPerson) => [...previousPerson, person]);
+    } else {
+      console.log("edit");
+      setPeople((previousPeople) =>
+        previousPeople.map((p) => (p.id === person.id ? person : p))
+      );
+    }
+  };
 
   return (
     <div className="min-h-screen bg-gray-50 py-8">
@@ -54,7 +76,7 @@ function Person() {
         <PersonForm
           methods={methods}
           onFormReset={handleFormReset}
-          onFormSubmit={handleSubmit}
+          onFormSubmit={handleFormSubmit}
         />
         <PersonList
           people={people}
