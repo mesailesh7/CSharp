@@ -8,23 +8,27 @@ namespace ExampleMudWebApp.Components.Pages.SamplePages
     public partial class CustomerEdit
     {
         #region Feedback & Error messages
-
+        
         private string feedbackMessage = string.Empty;
         private string? errorMessage;
         private bool hasFeedback => !string.IsNullOrWhiteSpace(feedbackMessage);
         private bool hasError => !string.IsNullOrWhiteSpace(errorMessage);
         private List<string> errorDetails = new();
-
+        private bool disableViewButton = false;
+        
+        
         #endregion
 
         #region Fields
 
-        private CustomerEditView customer = new();
+        private CustomerEditView customer = new CustomerEditView();
         private MudForm customerForm = new();
         
         private List<LookupView> provinces = new();
         private List<LookupView> countries = new();
         private List<LookupView> statusLookup = new();
+        private List<InvoiceView> invoices = new();
+        
         #endregion
 
         #region  Validation
@@ -45,7 +49,9 @@ namespace ExampleMudWebApp.Components.Pages.SamplePages
         [Parameter] public int CustomerID { get; set; } = 0;
         [Inject]
         protected IDialogService DialogService { get; set; } = default!;
-
+        [Inject]
+        protected InvoiceService InvoiceService { get; set; }
+        
         #endregion
 
         #region Methods
@@ -63,9 +69,20 @@ namespace ExampleMudWebApp.Components.Pages.SamplePages
                 if (CustomerID > 0)
                 {
                     var result = CustomerService.GetCustomer(CustomerID);
+                    
                     if (result.IsSuccess)
-                    {
+                    {   
                         customer = result.Value;
+                        var invoiceResults = InvoiceService.GetCustomerInvoices(CustomerID);
+
+                        if (invoiceResults.IsSuccess)
+                        {
+                            invoices = invoiceResults.Value;
+                        }
+                        else
+                        {
+                            errorDetails = HelperMethods.GetErrorMessages(result.Errors.ToList());
+                        }
                     }
                     else
                     {
@@ -136,6 +153,17 @@ namespace ExampleMudWebApp.Components.Pages.SamplePages
                 }
             }
             NavigationManager.NavigateTo("/SamplePages/CustomerList");
+        }
+
+
+        private void NewInvoice()
+        {
+            NavigationManager.NavigateTo($"/SamplePages/InvoiceEdit/0/${CustomerID}/1");
+        }
+
+        private void EditInvoice(int invoiceID)
+        {
+            NavigationManager.NavigateTo($"/SamplePages/InvoiceEdit/{invoiceID}/{CustomerID}/1");
         }
     
 }
