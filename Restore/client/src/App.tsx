@@ -13,15 +13,17 @@ function App() {
 
 const addProduct = () => {
   setProducts(prevState => [...products, {
-    id: prevState.length + 1,
-    name: 'product' + (prevState.length + 1), 
-    price: (prevState.length * 100) + 100},
-    quantityInStock:100,
-    description: 'test',
-    pictureUrl: 'https://pic.photo/200',
-    type: 'test',
-    brand: "test"
-  
+      id: prevState.length + 1,
+      name: 'product' + (prevState.length + 1),
+      price: (prevState.length * 100) + 100,
+      pictureUrl: 'https://pic.photo/200',
+      quantityInStock: 100,
+      description: 'test',
+      type: 'test',
+      brand: "test",
+
+
+  }
   
   ])
 }

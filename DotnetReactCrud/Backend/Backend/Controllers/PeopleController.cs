@@ -1,11 +1,12 @@
 using Backend.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Controllers
 {
-    //this api route can also be hardcoded like [Route("api/people")] 
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class PeopleController : ControllerBase
@@ -142,6 +143,7 @@ namespace Backend.Controllers
         }
 
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id:int}")] //Delete /api/people/1
         public async Task<IActionResult> DeletePerson(int id)
         {
